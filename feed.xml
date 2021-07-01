@@ -1,0 +1,3184 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-07-01T06:02:32+00:00</updated><id>/</id><title type="html">UBI Center</title><subtitle>Analyzing universal basic income policies with open-source research</subtitle><entry><title type="html">Research we’re presenting at the upcoming NABIG conference</title><link href="/nabig-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming NABIG conference" /><published>2021-06-15T22:00:00+00:00</published><updated>2021-06-15T22:00:00+00:00</updated><id>/nabig-2021</id><content type="html" xml:base="/nabig-2021">&lt;p&gt;&lt;em&gt;Post-NABIG update: You can watch the recordings for the &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on&quot;&gt;UBI Center session&lt;/a&gt; and the &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8&quot;&gt;Feminism session&lt;/a&gt; at the NABIG Crowdcast site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From Thursday through Sunday, &lt;a href=&quot;https://usbig.net/&quot;&gt;USBIG&lt;/a&gt; will hold the &lt;a href=&quot;https://www.crowdcast.io/nabigcongress&quot;&gt;19th North America Basic Income Guarantee (NABIG) Congress&lt;/a&gt;. The virtual conference includes presentations from researchers and activists in the US and Canada, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday at 9AM ET,&lt;/strong&gt; &lt;a href=&quot;https://www.ubicenter.org/author/john/&quot;&gt;John Walker&lt;/a&gt; will present his paper, &lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view?usp=sharing&quot;&gt;“Benchmarking a child allowance against free childcare,”&lt;/a&gt; in a session on &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8/register&quot;&gt;“Feminism, UBI and the Politics of Caring Labor.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday at 4PM ET,&lt;/strong&gt; several of our researchers will present papers in a dedicated session, &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on/register&quot;&gt;“UBI Center Research on Policies, Politics, and Economic Consequences”&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’ll discuss my paper, &lt;a href=&quot;https://drive.google.com/file/d/1_PnYOuJ4TiuOdsCfuzlSUkWDAzAYXyhC/view?usp=sharing&quot;&gt;“UBI and child allowances in California”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/nate/&quot;&gt;Nate Golden&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1Zw1JysANBjeWi2JnY4quUpiptXaCigtU&quot;&gt;“The impact of UBI on likely voters”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/will/&quot;&gt;Will Fedder&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1gHLxtP-cduWrP3dlN0WV4to--c2aNCQa&quot;&gt;“Designing and analyzing budget-neutral UBI policies with a real-time web tool”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/joshua/&quot;&gt;Joshua Miller&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/file/d/1BMiRmdPWgWT1lnb20J8-PiZs5MijoCYy/view?usp=sharing&quot;&gt;“UBI and inflation: reviewing theory and evidence”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UBI Center advisor &lt;a href=&quot;https://www.bakerinstitute.org/experts/richard-evans/&quot;&gt;Richard Evans&lt;/a&gt; will discuss his paper, “A general equilibrium model of UBI in the US” (link forthcoming)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-nabig-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://www.eventbrite.com/e/19th-annual-nabig-congress-2021-june-17-19-2021-tickets-147319186653&quot;&gt;Registration for NABIG is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content><author><name>Max Ghenis</name></author><category term="us" /><category term="conferences" /><summary type="html">We'll share six papers across two sessions on Friday and Saturday.</summary></entry><entry><title type="html">How could Andrew Yang’s Basic Income for New York City be designed?</title><link href="/yang-nyc" rel="alternate" type="text/html" title="How could Andrew Yang's Basic Income for New York City be designed?" /><published>2021-06-15T00:00:00+00:00</published><updated>2021-06-15T00:00:00+00:00</updated><id>/yang-nyc</id><content type="html" xml:base="/yang-nyc">&lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://requirejs.org/docs/release/2.3.5/minified/require.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Over the next eight days, New York City Democrats will decide their party nominee for mayor. One of the candidates, former presidential candidate Andrew Yang, has centered his campaign around a shrunk-down local version of his national &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Freedom Dividend&lt;/a&gt;, which he calls &lt;a href=&quot;https://www.yangforny.com/policies/a-basic-income-for-new-york-city&quot;&gt;“A Basic Income for New York City.”&lt;/a&gt; The plan promises to provide an average of $2,000 to each of the city’s 500,000 poorest adults.&lt;/p&gt;
+
+&lt;p&gt;In this post, I explore how this $1 billion program could be codified. I find that the plan can be characterized by a benefit program that guarantees 30% of the poverty line and phases out at 50 cents per dollar of income. Such a plan would reduce deep poverty by 60%, though it would also create significant work disincentives and distort marriage choices among NYC’s deeply poor population.&lt;/p&gt;
+
+&lt;h1 id=&quot;poverty-in-new-york-city&quot;&gt;Poverty in New York City&lt;/h1&gt;
+
+&lt;p&gt;NYC has unusually high poverty: in 2019, 19.2% of the population was in poverty, compared to &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-272.pdf&quot;&gt;11.7% nationally&lt;/a&gt;. That’s based on the Census Bureau’s &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt; (SPM), which, unlike the Official Poverty Measure, accounts for a household’s&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in-kind benefits (e.g., food stamps), taxes, and, critically for NYC, housing costs—the SPM estimates that NYC residents face 21% higher cost of living than the national average.&lt;/p&gt;
+
+&lt;p&gt;NYC’s current 19.2% poverty rate is down from 23.9% when the Census Bureau began reporting the SPM, though it hit a high of 28.3% in 2012 in between. The deep poverty rate—the population share under half the poverty threshold—has followed a similar trend, from 7.8% in 2009 to a high of 9.1% in 2011 to its latest value of 4.9% in 2019.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_1&quot;).load(&quot;/assets/markdown_assets/yang-nyc/pov_trend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Poverty rates fail to capture dynamics below the threshold, though. If a policy lifts someone from 10% of the poverty line to 90%, that doesn’t change the poverty rate; if it lifts them from 10% to 40%, it also doesn’t change the deep poverty rate.&lt;/p&gt;
+
+&lt;p&gt;So it’s also useful to consider the &lt;em&gt;poverty gap&lt;/em&gt;, the sum of all deviations between a household’s resources and their poverty threshold, among families in poverty; that is, the poverty gap measures the total amount one would have to spend to end poverty, if the transfer were perfectly targeted. Similarly, the &lt;em&gt;deep poverty gap&lt;/em&gt; measures deviations to half the poverty threshold.&lt;/p&gt;
+
+&lt;p&gt;NYC’s poverty gap in 2019 was $6.3 billion, and its deep poverty gap was $1.5 billion. Poverty gaps are less straightforward to interpret over time, since they vary with inflation and population changes, but their pattern roughly mirrors that of the poverty rates, exhibiting modest and inconsistent declines over time.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_2&quot;).load(&quot;/assets/markdown_assets/yang-nyc/pov_gap_trend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To smooth out the year-by-year noise, the rest of this analysis averages the three latest years of data, from 2017 to 2019.&lt;/p&gt;
+
+&lt;h1 id=&quot;andrew-yangs-basic-income-proposal&quot;&gt;Andrew Yang’s Basic Income Proposal&lt;/h1&gt;
+
+&lt;p&gt;Yang’s &lt;a href=&quot;https://www.yangforny.com/policies/a-basic-income-for-new-york-city&quot;&gt;campaign website&lt;/a&gt; spells out core features of the plan, indicating that it would provide monthly transfers averaging $2,000 per year to the “500,000 New Yorkers with the greatest need,” that these transfers would supplement existing benefits, and that the $1 billion program intends to end “extreme poverty.”&lt;/p&gt;
+
+&lt;p&gt;This document leaves some details unspecified, some of which Yang’s campaign staff clarified to me, others of which remain open questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;What is a “New Yorker”?&lt;/strong&gt; Campaign staff defined this as an adult resident of NYC, in accordance with &lt;a href=&quot;https://www.robinhood.org/wp-content/themes/robinhood/images/poverty-tracker/pdfs/POVERTY_TRACKER_REPORT25.pdf&quot;&gt;poverty reporting&lt;/a&gt; from the NYC-based nonprofit &lt;a href=&quot;https://www.robinhood.org/&quot;&gt;Robin Hood&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is poverty defined?&lt;/strong&gt; Campaign staff also confirmed to me that the poverty definitions refer to the SPM. Given SPM’s accounting of housing costs, this aligns with Yang’s statement that “Our goal is to […ensure] that every household has an annual income that is at least above extreme poverty, taking into account the true cost of living in New York City.” Robin Hood’s Poverty Tracker emulates the Census Bureau’s approach with regard to the Supplemental Poverty Measure, though its results differ.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is “extreme poverty” defined?&lt;/strong&gt; This is unclear, so I do not apply it as a defining constraint. Robin Hood’s &lt;a href=&quot;https://www.robinhood.org/wp-content/themes/robinhood/images/poverty-tracker/pdfs/POVERTY_TRACKER_REPORT19.pdf&quot;&gt;2019 report&lt;/a&gt;, based on their &lt;a href=&quot;https://www.robinhood.org/programs/special-initiatives/poverty-tracker/index.html&quot;&gt;Poverty Tracker&lt;/a&gt; survey produced in conjunction with Columbia University, classified 500,000 NYC adults as in “deep poverty,” under the standard poverty definition of below half the poverty line. Meanwhile, the term “extreme poverty” is typically reserved for the World Bank’s global definition of about $2 per person per day—a depth of poverty under which &lt;a href=&quot;https://www.nber.org/papers/w25907&quot;&gt;virtually no Americans fall&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Are the transfers person-based or household-based?&lt;/strong&gt; On one hand, the program is focused on “New Yorkers”—adults—but on the other, it promises to end extreme poverty, which is defined at the household level. I assume that it’s household-based, like other welfare benefits.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is income defined for the purposes of qualifying for the benefit?&lt;/strong&gt; The emphasis on the poverty rate suggests that the income measure would be the SPM resource measure; indeed, Yang’s staff confirmed that benefits like SNAP and housing assistance would count toward eligibility (though the reverse is not true). While estimating this resource measure in real time will create administrative difficulties (as I explain later), I assume that doing so is feasible and use it for my calculations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What is the maximum amount of the transfer?&lt;/strong&gt; That is, how much should a household with no current income get? If the policy intends to eradicate deep poverty, then it must be at least half the household’s poverty threshold. As I show in the next section, however, this is not feasible given the $1 billion budget, so I explore smaller amounts; and as I explain later, basing the transfer on a household’s poverty threshold may create administrative challenges.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What is the phase-out rate (i.e. marginal tax rate) of the transfer with respect to income?&lt;/strong&gt; Alternatively, at what income level would the program no longer cover a household? For example, if the benefit maxes out at half a household’s poverty threshold, and it phases out dollar for dollar (100% marginal tax rate), then a household whose income is half their poverty threshold would receive $0; if the marginal tax rate is 50%, they would receive $0 when their income reaches their poverty threshold. The campaign told me that it would phase out at some rate, rather than having a cliff, but they did not specify the rate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In summary, I assume that the program would guarantee a certain percentage of a household’s SPM poverty threshold and phase out at a certain rate with respect to their SPM resources. To determine the parameters that satisfy Yang’s constraints ($1 billion budget and 500,000 adult recipients), I turned to microsimulation.&lt;/p&gt;
+
+&lt;h1 id=&quot;identifying-a-feasible-reform&quot;&gt;Identifying a feasible reform&lt;/h1&gt;
+
+&lt;p&gt;Yang’s plan has two criteria: it must reach 500,000 adults and cost $1 billion. There are also two unknown policy parameters: the maximum value (as a share of a household’s poverty threshold), and the phase-out rate (with respect to resources). Many potential policies could satisfy either of these conditions, but only one satisfies both.&lt;/p&gt;
+
+&lt;p&gt;Consider, for example, three potential phase-out rates: 25%, 50%, and 100%. The slower the phase-out, the more a given policy costs, &lt;em&gt;ceteris paribus&lt;/em&gt;; UBI, with a 0% phase-out, is the most expensive option, while a 100% phase-out is cheapest (though it removes all incentive to work). At a 25% phase-out, a benefit could only guarantee 20% of the poverty threshold while staying under the $1 billion budget. At a 50% phase-out rate, the benefit could guarantee 30% of the poverty threshold, and a 100% phase-out could guarantee 39%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g3&quot;).load(&quot;/assets/markdown_assets/yang-nyc/cost.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To reach 500,000 adults, I run the same exercise. At a 25% phase-out, the benefit can only max out at 15% of the poverty threshold. At 50%, it’s 30%, and at 100%, it’s well over 50%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g4&quot;).load(&quot;/assets/markdown_assets/yang-nyc/reach.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Combining these constraints, we can map the contours that satisfy each condition. This reveals that the policy that satisfies both (a) guarantees 30% of the poverty line, and (b) phases out at 50 cents per dollar of income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g5&quot;).load(&quot;/assets/markdown_assets/yang-nyc/cost_reach.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g5&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;the-reforms-impact&quot;&gt;The reform’s impact&lt;/h1&gt;
+
+&lt;p&gt;Poverty rates are ill-suited to evaluating policies that target the deeply poor population the way this does. Since the reform fully phases out for families with resources of 60% of their poverty threshold, it leaves the poverty rate unchanged. This demonstrates limitations of the poverty rate as a policy evaluation tool: it fails to capture reductions in the extent of poverty.&lt;/p&gt;
+
+&lt;p&gt;Even the deep poverty rate largely fails to capture the policy’s impact. The benefit is 83% phased out for families at the deep poverty threshold (50% / 60%), so while it does have some effect, the bulk of the impact is in reducing the depth of deep poverty.&lt;/p&gt;
+
+&lt;p&gt;The policy most affects the deep poverty gap—lowering it by 60%—which makes sense given it aims to reduce the depth of poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g6&quot;).load(&quot;/assets/markdown_assets/yang-nyc/impacts.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g6&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;administrative-and-incentive-considerations&quot;&gt;Administrative and incentive considerations&lt;/h1&gt;
+
+&lt;p&gt;While this plan would achieve significant deep poverty reduction, it may also face administrative challenges, and it would certainly create perverse incentives for recipients.&lt;/p&gt;
+
+&lt;p&gt;Basing the monthly program on SPM resource values would be difficult. SPM resources include all cash income, as well as in-kind benefits and taxes throughout the year. That means that program officers would have to estimate households’ annual income, benefits, and taxes, each month to determine their payment amount. Recipients would face this administrative burden as well, having to report any change to income, benefits, projected tax liability, or household structure to the city. Tax liability aside, this is largely consistent with other benefit programs, though those other benefit programs do fail to reach some of the poor, and these hoops plausibly explain some of those exclusion errors.&lt;/p&gt;
+
+&lt;p&gt;The program would add 50 percentage points to recipients’ marginal tax rates. According to the &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;Department of Health and Human Services&lt;/a&gt;, most households below 75% of the poverty line (as would be targeted by this program) currently face marginal tax rates of 10% or less. However, by changing that from 10% to 60%, or even 0% to 50%, the program would make the deeply poor population some of the highest taxed segment of the population. Studies find that workers in the lowest income decile are the &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;most sensitive to marginal tax rates&lt;/a&gt;, suggesting that labor supply would fall as a result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-06-15-yang-nyc/aspe_hhs_mtr.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The program would also distort marriage incentives, both toward and away from it. For example, someone with no income would gain a larger benefit from staying single than from partnering with someone with income; on the other hand, two people with similar income may gain a larger benefit from partnering, depending on their poverty threshold. This also is not a problem that’s new either to benefit programs or the &lt;a href=&quot;https://taxfoundation.org/understanding-marriage-penalty-and-marriage-bonus/&quot;&gt;tax code&lt;/a&gt;, but the generosity of the payment and steep phase-out make the issue especially prominent.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;A policy consistent with Andrew Yang’s policy outline would reduce deep poverty by 60%, largely helping people escape the deeper depths of poverty that cause lasting harms, especially to children. The sharp means-testing could make it harder to reach eligible recipients, and it will distort those recipients’ incentives, but providing cash transfers without a work requirement across NYC would constitute a new step toward an unconditional safety net.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Throughout this analysis, I use “household” as shorthand for Supplemental Poverty Measure unit, a household-like concept created by the Census Bureau to group (actual) household members that share resources. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Max Ghenis</name></author><category term="us" /><category term="new york city" /><category term="andrew yang" /><summary type="html">The billion-dollar plan could reduce deep poverty by 60 percent.</summary></entry><entry><title type="html">Progressive adjustments to the Liberal Democrat UBI Working Group’s reforms</title><link href="/progressive-adjustments-lib-dem-working-group" rel="alternate" type="text/html" title="Progressive adjustments to the Liberal Democrat UBI Working Group's reforms" /><published>2021-06-07T00:00:00+00:00</published><updated>2021-06-07T00:00:00+00:00</updated><id>/progressive-adjustments-lib-dem-working-group</id><content type="html" xml:base="/progressive-adjustments-lib-dem-working-group">&lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://requirejs.org/docs/release/2.3.5/minified/require.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Yesterday, we published an &lt;a href=&quot;/lib-dem-policy-paper&quot;&gt;analysis&lt;/a&gt; of universal basic income reforms described in the Liberal Democrat UBI Working Group’s &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;discussion paper&lt;/a&gt;. In the working group’s words, their paper “is designed to stimulate debate and discussion within the Party and outside; based on the response generated and on the deliberations of the working group a full policy paper will be drawn up and presented to Conference for debate.”&lt;/p&gt;
+
+&lt;p&gt;In this follow-up, we model a budget-neutral version of the reforms put forth in the working group paper, as well as a variety of (also budget-neutral) adjustments to those reforms. While the working group’s reform would reduce poverty and inequality, we find that these adjustments, which make the UBIs more generous and inclusive, would augment their effects substantially.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-working-groups-ubi-reform&quot;&gt;The working group’s UBI reform&lt;/h2&gt;
+
+&lt;p&gt;The working group paper suggested a range of UBI amounts: 45, 60, 75, and 95 pounds per week for working-age adults. The cost was partly offset by lowering the annual Personal Allowance (for working-age adults) from £12,500 to £2,500 and the weekly National Insurance Primary Threshold from £184 to £50;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; these both reduce the amount of earnings one can receive before being taxed. The reform also treated the UBI as earned income for the purposes of means-tested benefits.&lt;/p&gt;
+
+&lt;p&gt;The result was progressive: poverty would fall by at least 17 percent, deep poverty (the population share with income below half the poverty threshold) by at least 50 percent, and inequality (as measured by the &lt;a href=&quot;https://en.wikipedia.org/wiki/Gini_coefficient&quot;&gt;Gini index&lt;/a&gt;) by at least 2.8 percent. However, even the least generous of the four UBI policies added over £20 billion to the deficit.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_verbal_tonight_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_verbal_tonight_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;If made budget-neutral, this structure of pay-fors will fund a UBI of £42 per week. That policy would reduce poverty by 11%, deep poverty by 46%, and inequality by 2.4%, while leaving 39% of Britons better off and 47% worse off. For an apples-to-apples comparison, we consider this the baseline reform against which other adjustments are evaluated.&lt;/p&gt;
+
+&lt;h2 id=&quot;adjustments-to-the-working-groups-ubi-reform&quot;&gt;Adjustments to the working group’s UBI reform&lt;/h2&gt;
+
+&lt;p&gt;We apply several modifications to the working group’s UBI reform that broaden the tax base (funding larger UBIs), broaden the recipient base, and change how the UBI is treated. Specifically, we model:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Including children in the UBI&lt;/li&gt;
+  &lt;li&gt;Repealing the Personal Allowance and National Insurance Primary Threshold entirely&lt;/li&gt;
+  &lt;li&gt;Including pensioners in both the Personal Allowance reduction and the UBI&lt;/li&gt;
+  &lt;li&gt;Exempting the UBI from means-testing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition to modeling each of these changes individually, we consider applying all four changes together.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_disciplinary_beginning()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_disciplinary_beginning&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from ubicenter import format_fig
+from openfisca_uk import Microsimulation
+import numpy as np
+import pandas as pd
+import plotly.express as px
+from reform import (
+    WA_adult_UBI,
+    all_UBI,
+    adult_UBI,
+    non_pensioner_UBI,
+    set_PA,
+    set_PT,
+    set_PA_for_WA_adults,
+    include_UBI_in_means_tests,
+    net_cost,
+)
+
+reform_df = pd.DataFrame(
+    {
+        &quot;Adult PA (£/year)&quot;: [12500, 2500, 0, 2500, 2500, 2500, 0],
+        &quot;Pensioner PA (£/year)&quot;: [12500, 12500, 12500, 2500, 12500, 12500, 0],
+        &quot;NI Primary Threshold (£/week)&quot;: [183, 50, 0, 50, 50, 50, 0],
+        &quot;UBI for children&quot;: [False, False, False, False, True, False, True],
+        &quot;UBI for pensioners&quot;: [False, False, False, True, False, False, True],
+        &quot;UBI in means tests&quot;: [False, True, True, True, True, False, False],
+    }
+)
+
+baseline = Microsimulation(year=2020)
+
+
+def create_reform(params: dict):
+    reform = []
+    reform += [set_PA(float(params[&quot;Pensioner PA (£/year)&quot;]))]
+    reform += [set_PA_for_WA_adults(float(params[&quot;Adult PA (£/year)&quot;]))]
+    reform += [set_PT(float(params[&quot;NI Primary Threshold (£/week)&quot;]))]
+    tax_reform_sim = Microsimulation(*reform, year=2020)
+    revenue = net_cost(tax_reform_sim, baseline)
+    if params[&quot;UBI for children&quot;]:  # doesn't handle non-adult UBIs
+        if params[&quot;UBI for pensioners&quot;]:
+            ubi_reform_func = all_UBI
+            population = baseline.calc(&quot;people&quot;).sum()
+        else:
+            ubi_reform_func = non_pensioner_UBI
+            population = (
+                baseline.calc(&quot;is_child&quot;).sum()
+                + baseline.calc(&quot;is_WA_adult&quot;).sum()
+            )
+    else:
+        if params[&quot;UBI for pensioners&quot;]:
+            ubi_reform_func = adult_UBI
+            population = baseline.calc(&quot;is_adult&quot;).sum()
+        else:
+            ubi_reform_func = WA_adult_UBI
+            population = baseline.calc(&quot;is_WA_adult&quot;).sum()
+    if params[&quot;UBI in means tests&quot;]:
+        ubi_amount = int(revenue / population / 52) * 52
+        net_revenue = -net_cost(
+            baseline,
+            Microsimulation(
+                (
+                    reform,
+                    ubi_reform_func(ubi_amount),
+                    include_UBI_in_means_tests(),
+                ),
+                year=2020,
+            ),
+        )
+        prev_amounts = []
+        while (
+            net_revenue &amp;gt; 1e9 or net_revenue &amp;lt; -1e9
+        ) and ubi_amount not in prev_amounts:
+            old_ubi_amount = ubi_amount
+            prev_amounts += [old_ubi_amount]
+            ubi_amount += 1 * 52 * (2 * (net_revenue &amp;gt; 0) - 1)
+            net_revenue = -net_cost(
+                baseline,
+                Microsimulation(
+                    (
+                        reform,
+                        ubi_reform_func(ubi_amount),
+                        include_UBI_in_means_tests(),
+                    ),
+                    year=2020,
+                ),
+            )
+        reform += [ubi_reform_func(ubi_amount), include_UBI_in_means_tests()]
+    else:
+        ubi_amount = int(revenue / population / 52) * 52
+        reform += [ubi_reform_func(ubi_amount)]
+    return tuple(reform)
+
+
+def rel(x, y):
+    return (y - x) / x
+
+
+UBI_amounts = []
+poverty_changes = []
+deep_poverty_changes = []
+costs = []
+winners = []
+losers = []
+gini_changes = []
+
+from tqdm import trange
+
+for i in range(len(reform_df)):
+    reform = create_reform(reform_df.iloc[i])
+    reform_sim = Microsimulation(reform, year=2020)
+    UBI_amounts += [reform_sim.calc(&quot;UBI&quot;).max()]
+    poverty_changes += [
+        rel(
+            baseline.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+            reform_sim.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+        )
+    ]
+    deep_poverty_changes += [
+        rel(
+            baseline.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+            reform_sim.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean(),
+        )
+    ]
+    gini_changes += [
+        rel(
+            baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini(),
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini(),
+        )
+    ]
+    winners += [
+        (
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+            &amp;gt; baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) + 1
+        ).mean()
+    ]
+    losers += [
+        (
+            reform_sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+            &amp;lt; baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - 1
+        ).mean()
+    ]
+    costs += [net_cost(baseline, reform_sim)]
+    
+results_df = pd.DataFrame(
+    {
+        &quot;UBI amount (£/week)&quot;: (pd.Series(UBI_amounts) / 52).astype(int),
+        &quot;Poverty change (%)&quot;: pd.Series(poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Deep poverty change (%)&quot;: pd.Series(deep_poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Winners (%)&quot;: pd.Series(winners).apply(lambda x: round(x * 100, 1)),
+        &quot;Losers (%)&quot;: pd.Series(losers).apply(lambda x: round(x * 100, 1)),
+        &quot;Inequality change (%)&quot;: pd.Series(gini_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Net cost (£bn/year)&quot;: pd.Series(costs).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+    }
+)
+
+output = pd.concat([reform_df, results_df], axis=1)
+output.index = [
+    &quot;Baseline&quot;,
+    &quot;Budget-neutral Working Group reform&quot;,
+    &quot;Full PA/PT elimination&quot;,
+    &quot;Include pensioners&quot;,
+    &quot;Include children&quot;,
+    &quot;Exclude from means tests&quot;,
+    &quot;All&quot;,
+]
+output
+
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_disciplinary_beginning() {
+  var x = document.getElementById(&quot;code_block_disciplinary_beginning&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_disciplinary_beginning_1&quot;).load(&quot;/assets/markdown_assets/post/graph_disciplinary_beginning_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_disciplinary_beginning_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Each of these adjustments produces more progressive outcomes. The most important adjustment for achieving more progressive outcomes is including children, which lowers the weekly amount from £42 to £32: of all the adjustments we considered, this most reduces poverty, inequality, and the population share that comes out behind. Fully eliminating the Personal Allowance and Primary Threshold, which would raise the weekly amount from £42 to £55, produces the greatest reduction in deep poverty.&lt;/p&gt;
+
+&lt;p&gt;The most progressive approach is implementing all the adjustments. Fully eliminating the Personal Allowance and Primary Threshold for all workers would fund a £36 weekly payment to each person, without counting as income toward means-tested programs. This would reduce poverty by 40%—3.6 times as much as the plan in the discussion paper. It would also reduce deep poverty 20% more than the discussion paper, and reduce inequality 130% more. Critically for political viability, it is the only approach that benefits the majority of individuals.&lt;/p&gt;
+
+&lt;h1 id=&quot;lessons-align-with-other-simulations&quot;&gt;Lessons align with other simulations&lt;/h1&gt;
+
+&lt;p&gt;This exploration shows that larger UBIs—both in generosity and inclusivity—deliver greater progressivity. The UBI Center’s US research findings mirror this lesson with respect to inclusivity:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;/why-some-low-income-people-come-out-behind-in-andrew-yangs-freedom-dividend&quot;&gt;Excluding non-citizens was the primary reason Andrew Yang’s Freedom Dividend would leave some low-income people behind.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/child-ubi-share&quot;&gt;Including children in UBIs reduces poverty and inequality more.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19&quot;&gt;Including children and non-citizens makes for a more affordable Covid response.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://covid.ubicenter.org/fpuc&quot;&gt;Universal transfers (especially including kids) reduce poverty and inequality more than extended unemployment benefits, which reach only a small share of the population.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/student-debt&quot;&gt;UBI is more progressive than student debt forgiveness, which is similarly exclusively targeted.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our research on &lt;a href=&quot;/us-flat-tax&quot;&gt;flat income taxes&lt;/a&gt; also shows that more generous UBIs are more progressive, even when tax-funded, as does a comparison between our &lt;a href=&quot;/uk-blank-slate-ubi&quot;&gt;Blank Slate UBI model&lt;/a&gt; and more incremental reforms.&lt;/p&gt;
+
+&lt;p&gt;Moreover, poverty, inequality, and how people fare compared to today are not the only factors to judge UBI policies on. Starting with a working age population could rhetorically fill a gap between Child Benefit and State Pension, and treating the UBI as income for means-testing can serve to reduce benefits’ scope without changing their structure. But as we showed in &lt;a href=&quot;/lib-dem-policy-paper&quot;&gt;yesterday’s analysis&lt;/a&gt;, the working group’s reforms didn’t change overall marginal tax rates substantially; true benefit reform may need to accompany the UBI policy to meaningfully improve work incentives and reduce bureaucratic burdens. So we’re left largely with the million Britons lifted out of poverty by a budget-neutral version of the working group’s UBI proposal, and the nearly three million more who’d be lifted out of poverty through a more expansive version of it.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;For the £45 per week UBI reform, the working group modeled lowering the Personal Allowance and Primary Threshold less than other reforms, to £4,000 and £50, respectively. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;max&quot;, &quot;nikhil&quot;]</name></author><category term="uk" /><category term="UK Liberal Democrats" /><summary type="html">More generous and inclusive basic income plans would reduce poverty and inequality more, and benefit more people.</summary></entry><entry><title type="html">Liberal Democrat UBI Policy Paper: An Analysis</title><link href="/lib-dem-policy-paper" rel="alternate" type="text/html" title="Liberal Democrat UBI Policy Paper: An Analysis" /><published>2021-06-06T00:00:00+00:00</published><updated>2021-06-06T00:00:00+00:00</updated><id>/lib-dem-policy-paper</id><content type="html" xml:base="/lib-dem-policy-paper">&lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://requirejs.org/docs/release/2.3.5/minified/require.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Last month, the Liberal Democrat UBI Working Group published a &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;policy paper&lt;/a&gt; exploring possible universal basic income policies for the party’s platform.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; This release follows the &lt;a href=&quot;https://www.libdems.org.uk/a20-ubi&quot;&gt;September Liberal Democrat Conference vote&lt;/a&gt; to campaign for universal basic income in future elections. The working group invites comments on the paper until tomorrow, 7th June.&lt;/p&gt;
+
+&lt;p&gt;In this post, I assess the four UBI reforms described in the paper, which are partly offset by tax and benefit reforms.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I find that each would reduce poverty by at least a sixth and deep poverty by half, while benefiting 7 in 10 Britons, though they would also add at least £20 billion to the annual deficit.&lt;/p&gt;
+
+&lt;h2 id=&quot;policy-outlines&quot;&gt;Policy outlines&lt;/h2&gt;
+
+&lt;p&gt;The details of the four reforms are shown in the table below. The reforms are mainly funded by tax changes, and recover additional costs through the benefit system. See Appendix A for more details and a comparison to estimates in the Liberal Democrat discussion paper.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_structured_mobile()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_structured_mobile&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import pandas as pd
+
+table = pd.DataFrame(
+    {
+        &quot;UBI amount (£/week)&quot;: [45, 60, 75, 90],
+        &quot;Personal Allowance (£/year)&quot;: [4000, 2500, 2500, 2500],
+        &quot;NI Primary Threshold (£/week)&quot;: [90, 50, 50, 50],
+        &quot;Eligible groups&quot;: [&quot;Working-age adults&quot;] * 4,
+        &quot;UBI in benefit means tests&quot;: [&quot;Included&quot;] * 4,
+    }
+).set_index(&quot;UBI amount (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_structured_mobile() {
+  var x = document.getElementById(&quot;code_block_structured_mobile&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_structured_mobile_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tax-changes&quot;&gt;Tax changes&lt;/h3&gt;
+
+&lt;p&gt;The Liberal Democrat UBI Working Group proposes two tax changes to fund the UBI expenditure: reducing the Personal Allowance (for working-age adults only) and reducing the National Insurance Primary Threshold.&lt;/p&gt;
+
+&lt;p&gt;The Personal Allowance is a disregard for general income available to every individual with respect to Income Tax. In 2020, it had the value of £12,500 a year. For example, for an individual earning £22,500 a year, the Personal Allowance is deducted from taxable income to arrive at £10,000, which is taxed at the basic rate of 20%, resulting in a tax charge of £2,000. Reducing the Personal Allowance to £2,500 leaves the individual with £20,000 taxable income, resulting in a £4,000 Income Tax charge. The Working Group proposes lowering the Personal Allowance to £4,000 for the UBI of £45/week, and to £2,500 for the UBIs of £60, £75, and £90 per week.&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;National Insurance (NI) is a tax paid on employment earnings, comprising both employee and employer contributions. The Working Group proposes increasing employee NI contributions by reducing the Primary Threshold (PT). The threshold is currently set at £184/week: earnings under this are not taxed, earnings above this but under the Upper Earnings Limit (UEL, currently £967/week) are taxed at 12%, and earnings over the UEL are taxed at 2%.  The Working Group proposes reducing the PT to £90/week for the UBI of £45/week and to £50 for the larger UBI reforms.&lt;/p&gt;
+
+&lt;h3 id=&quot;ubi-and-benefit-changes&quot;&gt;UBI and benefit changes&lt;/h3&gt;
+
+&lt;p&gt;The Working Group proposes providing the basic income to working-age adults: individuals aged between 18 (inclusive) and the State Pension age (exclusive). This takes the form of a weekly payment in the amounts detailed below. The policies would not change existing benefit programs; however, UBI payments would be treated as earnings when existing benefits are means-tested. For example, if a person receives £70/week from Universal Credit and then is paid £60/week in UBI, their Universal Credit payment would be reduced at the 63% taper (assuming work allowances, set amounts of income disregarded by means tests, are exhausted) to arrive at £32.20 (which, combined with the £60 UBI, results in £93.20 - an increase of 33%).&lt;/p&gt;
+&lt;h3 id=&quot;funding-breakdown&quot;&gt;Funding breakdown&lt;/h3&gt;
+
+&lt;p&gt;Across reforms, the Personal Allowance reduction accounts for about two-thirds of the revenue, with the National Insurance threshold reduction accounting for a bit more than half of the remaining third.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_funky_portland()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_funky_portland&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from ubicenter import format_fig
+from openfisca_uk import Microsimulation
+from reform import (
+    WA_adult_UBI,
+    include_UBI_in_means_tests,
+    set_PA,
+    set_PA_for_WA_adults,
+    set_PT,
+    net_cost,
+)
+import numpy as np
+import pandas as pd
+from tqdm import trange, tqdm
+import plotly.express as px
+
+baseline = Microsimulation(year=2020)
+funding = (
+    set_PA_for_WA_adults(2500),
+    set_PT(50),
+    include_UBI_in_means_tests(),
+)
+ubi_45 = (
+    WA_adult_UBI(45 * 52),
+    set_PA_for_WA_adults(4000),
+    set_PT(90),
+    include_UBI_in_means_tests(),
+)
+ubi_60 = (WA_adult_UBI(60 * 52), *funding)
+ubi_75 = (WA_adult_UBI(75 * 52), *funding)
+ubi_95 = (WA_adult_UBI(95 * 52), *funding)
+
+breakdowns = []
+for reform, name in zip((ubi_45, ubi_60, ubi_75, ubi_95), (45, 60, 75, 95)):
+    net_costs = []
+    component_names = [
+        &quot;UBI&quot;,
+        &quot;Lower PA&quot;,
+        &quot;Lower PT&quot;,
+        &quot;Reduced benefits&quot;,
+        &quot;Remaining&quot;,
+    ]
+    for i in range(len(reform) + 1):
+        net_costs += [
+            net_cost(baseline, Microsimulation(reform[:i], year=2020))
+        ]
+    net_costs = np.array(net_costs)
+
+    resulting_costs = pd.Series(net_costs[1:] - net_costs[:-1])
+    resulting_costs = pd.Series(list(resulting_costs) + [net_costs[-1]])
+    breakdown = pd.DataFrame(
+        dict(
+            UBI=f&quot;£{name}/week&quot;,
+            component=component_names * 2,
+            amount=[0]
+            + list(resulting_costs.cumsum()[1:-1])
+            + [0]
+            + list(np.abs(resulting_costs)),
+            Type=[&quot;Unaffected&quot;] * 5
+            + [&quot;Spending&quot;]
+            + [&quot;Revenue&quot;] * 3
+            + [&quot;Spending&quot;],
+        )
+    )
+    breakdowns += [breakdown]
+
+fig = format_fig(
+    px.bar(
+        pd.concat(breakdowns),
+        x=&quot;component&quot;,
+        y=&quot;amount&quot;,
+        color=&quot;Type&quot;,
+        animation_frame=&quot;UBI&quot;,
+        barmode=&quot;stack&quot;,
+        color_discrete_sequence=[&quot;white&quot;, &quot;#1976D2&quot;, &quot;#BDBDBD&quot;],
+    ).update_layout(
+        title=&quot;Funding breakdown by reform&quot;,
+        xaxis_title=&quot;Component&quot;,
+        yaxis_title=&quot;Amount&quot;,
+        yaxis_tickprefix=&quot;£&quot;,
+        yaxis_range=[0, 210e9],
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_funky_portland() {
+  var x = document.getElementById(&quot;code_block_funky_portland&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_funky_portland_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_funky_portland_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_funky_portland_2&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_funky_portland_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_funky_portland_2&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;reform-effects&quot;&gt;Reform effects&lt;/h2&gt;
+
+&lt;p&gt;All four of the reforms reduce poverty and inequality, and leave most better off. Their net costs range from £22bn  for the £45 UBI (about the cost of Housing Benefit) to £101bn for the £90 UBI (about the cost of State Pension). The below table shows the effects on the budget, as well as to poverty (absolute before housing costs), deep poverty (defined at half the poverty line) and inequality (measured by the Gini coefficient of disposable income).&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_verbal_tonight()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_verbal_tonight&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from openfisca_uk.api import *
+
+
+def get_results(reform: Reform):
+    sim = Microsimulation(reform, year=2020)
+    cost = net_cost(baseline, sim)
+    ubi_cost = sim.calc(&quot;UBI&quot;).sum()
+    reform_tax_revenue = sim.calc(&quot;tax&quot;).sum() - baseline.calc(&quot;tax&quot;).sum()
+    benefit_revenue = ubi_cost - reform_tax_revenue - cost
+    baseline_poverty = baseline.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean()
+    baseline_deep_poverty = baseline.calc(
+        &quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;
+    ).mean()
+    poverty_change = (
+        sim.calc(&quot;in_poverty_bhc&quot;, map_to=&quot;person&quot;).mean() - baseline_poverty
+    ) / baseline_poverty
+    deep_poverty_change = (
+        sim.calc(&quot;in_deep_poverty_bhc&quot;, map_to=&quot;person&quot;).mean()
+        - baseline_deep_poverty
+    ) / baseline_deep_poverty
+    baseline_gini = baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    ).gini()
+    inequality_change = (
+        sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;).gini()
+        - baseline_gini
+    ) / baseline_gini
+    baseline_income = baseline.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;)
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline_income
+    percent_winners = (gain &amp;gt; 0).mean()
+    percent_losers = (gain &amp;lt; 0).mean()
+    return (
+        sim,
+        cost,
+        poverty_change,
+        deep_poverty_change,
+        inequality_change,
+        percent_winners,
+        percent_losers,
+        ubi_cost,
+        benefit_revenue,
+        reform_tax_revenue,
+    )
+
+
+reforms = (ubi_45, ubi_60, ubi_75, ubi_95)
+names = (&quot;£45&quot;, &quot;£60&quot;, &quot;£75&quot;, &quot;£95&quot;)
+results = list(map(get_results, reforms))
+(
+    sims,
+    costs,
+    poverty_changes,
+    deep_poverty_changes,
+    inequality_changes,
+    percent_winners,
+    percent_losers,
+    ubi_cost,
+    benefit_revenue,
+    reform_tax_revenue,
+) = list(zip(*results))
+LD_lower = (13, 22, 48, 84)
+LD_upper = (18, 28, 56, 93)
+table = pd.DataFrame(
+    {
+        &quot;UBI (£/week)&quot;: names,
+        &quot;Net cost (£bn)&quot;: pd.Series(costs).apply(lambda x: round(x / 1e9, 1)),
+        &quot;Poverty change (%)&quot;: pd.Series(poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Deep poverty change (%)&quot;: pd.Series(deep_poverty_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Inequality change (%)&quot;: pd.Series(inequality_changes).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Winners (%)&quot;: pd.Series(percent_winners).apply(
+            lambda x: round(x * 100, 1)
+        ),
+        &quot;Losers (%)&quot;: pd.Series(percent_losers).apply(
+            lambda x: round(x * 100, 1)
+        ),
+    }
+).set_index(&quot;UBI (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_verbal_tonight() {
+  var x = document.getElementById(&quot;code_block_verbal_tonight&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_verbal_tonight_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_verbal_tonight_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_verbal_tonight_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;distributional-effects&quot;&gt;Distributional effects&lt;/h3&gt;
+
+&lt;h4 id=&quot;inter-decile-effects&quot;&gt;Inter-decile effects&lt;/h4&gt;
+
+&lt;p&gt;The above effects only show the picture on the population as a whole. Below shows the average gain to members of the population by their household’s equivalised disposable income. With deficit funding, the plans are able to show positive impacts on average for every decile in every reform; budget-neutral plans would have result in some deciles coming out behind on average.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_private_princeton()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_private_princeton&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import plotly.graph_objects as go
+from ubicenter import format_fig
+
+fig = go.Figure()
+
+income = baseline.calc(&quot;equiv_household_net_income&quot;, map_to=&quot;person&quot;)
+
+LIGHTER_BLUE = &quot;#ABCEEB&quot;  # Blue 100.
+LIGHT_BLUE = &quot;#49A6E2&quot;  # Blue 700.
+BLUE = &quot;#1976D2&quot;  # Blue 700.
+DARK_BLUE = &quot;#0F4AA1&quot;  # Blue 900.
+
+BLUE_COLORS = [LIGHTER_BLUE, LIGHT_BLUE, BLUE, DARK_BLUE]
+
+for sim, name, color in zip(sims, names, BLUE_COLORS):
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    )
+    result = gain.groupby(income.decile_rank()).mean()
+    fig.add_trace(
+        go.Bar(x=result.index, y=result.values, name=name, marker_color=color)
+    )
+
+fig = format_fig(
+    fig.update_layout(
+        title=&quot;Change to net income by decile&quot;,
+        xaxis_tickvals=list(range(1, 11)),
+        xaxis_title=&quot;Equivalised disposable income decile&quot;,
+        yaxis_title=&quot;Change to annual net income per year&quot;,
+        yaxis_tickprefix=&quot;£&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_private_princeton() {
+  var x = document.getElementById(&quot;code_block_private_princeton&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_private_princeton_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_private_princeton_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_private_princeton_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Relative effects are stronger on the lower deciles, with higher amounts of UBI creating particularly strong increases in disposable income for the bottom decile.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_transparent_proxy()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_transparent_proxy&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+income = baseline.calc(&quot;equiv_household_net_income&quot;, map_to=&quot;person&quot;)
+
+LIGHTER_BLUE = &quot;#ABCEEB&quot;  # Blue 100.
+LIGHT_BLUE = &quot;#49A6E2&quot;  # Blue 700.
+BLUE = &quot;#1976D2&quot;  # Blue 700.
+DARK_BLUE = &quot;#0F4AA1&quot;  # Blue 900.
+
+BLUE_COLORS = [LIGHTER_BLUE, LIGHT_BLUE, BLUE, DARK_BLUE]
+
+for sim, name, color in zip(sims, names, BLUE_COLORS):
+    gain = sim.calc(&quot;household_net_income&quot;, map_to=&quot;person&quot;) - baseline.calc(
+        &quot;household_net_income&quot;, map_to=&quot;person&quot;
+    )
+    decile_agg_income_baseline = (
+        income[income &amp;gt; 0].groupby(income.decile_rank()).sum()
+    )
+    rel_gain = (
+        gain[income &amp;gt; 0].groupby(income.decile_rank()).sum()
+        / decile_agg_income_baseline
+    )
+    fig.add_trace(
+        go.Bar(
+            x=rel_gain.index, y=rel_gain.values, name=name, marker_color=color
+        )
+    )
+
+fig = format_fig(
+    fig.update_layout(
+        title=&quot;Relative change to net income by income decile&quot;,
+        xaxis_tickvals=list(range(1, 11)),
+        xaxis_title=&quot;Equivalised disposable income decile&quot;,
+        yaxis_title=&quot;Relative change per year&quot;,
+        yaxis_tickformat=&quot;%&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_transparent_proxy() {
+  var x = document.getElementById(&quot;code_block_transparent_proxy&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_transparent_proxy_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_transparent_proxy_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_transparent_proxy_1&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;intra-decile-effects&quot;&gt;Intra-decile effects&lt;/h4&gt;
+
+&lt;p&gt;While the share of people gaining from the reforms is relatively similar across income groups, people in low-income households are more likely to see substantial gains and less likely to see net losses. Even with the £45 UBI, only about a third of the top three deciles lose income; this follows from the tax and benefit changes mostly affecting lower income sections, as well as people earning over £125,000 being currently ineligible for the Personal Allowance, and therefore unaffected by its reduction.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_computational_indie()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_computational_indie&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import plotly.express as px
+from charts import intra_decile_graph_data
+
+intra = intra_decile_graph_data(baseline, *sims)
+
+GREY = &quot;#BDBDBD&quot;
+
+COLORS = (&quot;#616161&quot;, GREY, &quot;#F5F5F5&quot;, &quot;#C5E1A5&quot;, &quot;#558B2F&quot;,)[::-1]
+
+fig = format_fig(
+    px.bar(
+        intra,
+        x=&quot;fraction&quot;,
+        y=&quot;decile&quot;,
+        orientation=&quot;h&quot;,
+        color=&quot;Outcome&quot;,
+        animation_frame=&quot;UBI&quot;,
+        color_discrete_sequence=COLORS,
+    ).update_layout(
+        yaxis_tickvals=list(range(1, 11)),
+        xaxis_tickformat=&quot;%&quot;,
+        yaxis_title=&quot;Income decile&quot;,
+        xaxis_title=&quot;Outcome distributions&quot;,
+        title=&quot;Intra-decile outcomes&quot;,
+    )
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_computational_indie() {
+  var x = document.getElementById(&quot;code_block_computational_indie&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_computational_indie_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_computational_indie_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_computational_indie_1&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;individual-effects&quot;&gt;Individual effects&lt;/h2&gt;
+
+&lt;p&gt;The above results show the impact on the population as it stands, but not the theoretical effects on household budgets. An individual living alone and who will claim Universal Credit sees their disposable income increased by the £45/week UBI reform at earnings under £30,000 and over £70,000 (see Appendix B for this analysis of other household types).&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_outside_garden()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_outside_garden&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+from openfisca_uk import IndividualSim
+from ubicenter import format_fig
+
+individual_colors = [GREY, BLUE]
+
+
+def plot_budget(household_config, title):
+    baseline_policy = IndividualSim()
+    household_config(baseline_policy)
+    baseline_policy.vary(&quot;employment_income&quot;)
+    employment_income = baseline_policy.calc(&quot;employment_income&quot;)[0]
+    budget_dfs = []
+    for reform, name in zip(
+        (ubi_45, ubi_60, ubi_75, ubi_95), (45, 60, 75, 95)
+    ):
+        ubi_policy = IndividualSim(reform)
+        household_config(ubi_policy)
+        ubi_policy.vary(&quot;employment_income&quot;)
+        df = pd.DataFrame(
+            {
+                &quot;Net income (Baseline)&quot;: baseline_policy.calc(
+                    &quot;household_net_income&quot;
+                )[0],
+                &quot;Net income (Reform)&quot;: ubi_policy.calc(&quot;household_net_income&quot;)[
+                    0
+                ],
+                &quot;Tax (Baseline)&quot;: baseline_policy.calc(&quot;tax&quot;)[0],
+                &quot;Tax (Reform)&quot;: ubi_policy.calc(&quot;tax&quot;)[0],
+                &quot;Benefits (Baseline)&quot;: baseline_policy.calc(&quot;benefits&quot;)[0],
+                &quot;Benefits (Reform)&quot;: ubi_policy.calc(&quot;benefits&quot;)[0],
+                &quot;UBI (Reform)&quot;: ubi_policy.calc(&quot;UBI&quot;)[0],
+                &quot;Employment income&quot;: employment_income,
+                &quot;MTR (Baseline)&quot;: 1
+                - baseline_policy.calc_deriv(
+                    &quot;household_net_income&quot;,
+                    var_target=&quot;household&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;MTR (Reform)&quot;: 1
+                - ubi_policy.calc_deriv(
+                    &quot;household_net_income&quot;,
+                    var_target=&quot;household&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;Tax MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Tax MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Income Tax MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;income_tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Income Tax MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;income_tax&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;NI MTR (Baseline)&quot;: baseline_policy.calc_deriv(
+                    &quot;national_insurance&quot;,
+                    var_target=&quot;adult&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;NI MTR (Reform)&quot;: ubi_policy.calc_deriv(
+                    &quot;national_insurance&quot;,
+                    var_target=&quot;adult&quot;,
+                    wrt_target=&quot;adult&quot;,
+                ),
+                &quot;Benefit MTR (Baseline)&quot;: -baseline_policy.calc_deriv(
+                    &quot;benefits&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+                &quot;Benefit MTR (Reform)&quot;: -ubi_policy.calc_deriv(
+                    &quot;benefits&quot;, var_target=&quot;adult&quot;, wrt_target=&quot;adult&quot;
+                ),
+            }
+        )
+        df[&quot;UBI&quot;] = f&quot;£{name}/week&quot;
+        budget_dfs += [df]
+
+    fig = px.line(
+        pd.concat(budget_dfs),
+        x=&quot;Employment income&quot;,
+        y=[
+            &quot;Net income (Baseline)&quot;,
+            &quot;Net income (Reform)&quot;,
+            &quot;Tax (Baseline)&quot;,
+            &quot;Tax (Reform)&quot;,
+            &quot;Benefits (Baseline)&quot;,
+            &quot;Benefits (Reform)&quot;,
+            &quot;UBI (Reform)&quot;,
+        ],
+        animation_frame=&quot;UBI&quot;,
+        color_discrete_sequence=individual_colors,
+    ).update_layout(
+        title=title,
+        yaxis_tickprefix=&quot;£&quot;,
+        xaxis_tickprefix=&quot;£&quot;,
+        yaxis_title=&quot;Yearly amount&quot;,
+        xaxis_title=&quot;Employment income&quot;,
+        legend_title_text=&quot;&quot;,
+    )
+    hidden = [False] * 2 + [True] * 5
+    for i in range(7):
+        if hidden[i]:
+            fig.data[i].visible = &quot;legendonly&quot;
+
+    return format_fig(fig), pd.concat(budget_dfs)
+
+
+def single_person_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_benunit(adults=[&quot;adult&quot;], claims_UC=True),
+    sim.add_household(adults=[&quot;adult&quot;])
+
+
+fig, budget_df = plot_budget(
+    single_person_UC,
+    &quot;Effect of UBI reforms on the relationship between employment income and net income&quot;,
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_outside_garden() {
+  var x = document.getElementById(&quot;code_block_outside_garden&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_outside_garden_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_outside_garden_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_outside_garden_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The reforms also affect marginal tax rates: the PA decrease imposes the basic, higher and additional rates on taxpayers with lower incomes, the UBI amounts effectively reduce the benefit work disregards, and the PT decrease applies the 12% rate onto lower-income earners.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_nuclear_response()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_nuclear_response&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_nuclear_response() {
+  var x = document.getElementById(&quot;code_block_nuclear_response&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_nuclear_response_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_nuclear_response_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_nuclear_response_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Few political parties around the world have endorsed UBI as the Liberal Democrats have, and in releasing this discussion paper with specific policies, they have taken that endorsement to an unprecedented level of seriousness. While these policies don’t achieve full budget-neutrality, the discussion paper also mentions other revenue options, such as raising NI rates and tax rates on corporations, capital gains, and personal income. And while they don’t achieve the progressivity of &lt;a href=&quot;(/uk-blank-slate-ubi)&quot;&gt;more dramatic reforms&lt;/a&gt;, they would nonetheless reduce poverty and inequality more than any policy perhaps since the dawn of the NHS. The party’s final proposal will represent yet another unprecedented step in the UK’s embrace of UBI, and we look forward to reviewing it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: &lt;a href=&quot;/progressive-adjustments-lib-dem-working-group&quot;&gt;Read our follow-up&lt;/a&gt; describing progressive adjustments that could be made to this framework.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;appendix-a-costing-estimates&quot;&gt;Appendix A: Costing estimates&lt;/h3&gt;
+
+&lt;p&gt;The Working Group used different modelling methods than were used in this analysis, resulting in our analysis producing higher net costs than the Working Group found. This is primarily due to the fact that this analysis used a household simulation method, rather than administrative data from HMRC. This allows for finer levels of detail and distributional analysis, but high incomes and benefit receipts are under-reported, causing an underestimate of the revenue raised by the tax reforms. The Working Group also assumed full Universal Credit take-up, whereas this analysis considers legacy benefits reported in the Family Resources Survey. The details are shown in the table below.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_former_notion()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_former_notion&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+LD_lower = (13, 22, 48, 84)
+LD_upper = (18, 28, 56, 93)
+table = pd.DataFrame(
+    {
+        &quot;UBI (£/week)&quot;: names,
+        &quot;LD net cost (£bn)&quot;: [
+            f&quot;{low}-{high}&quot; for low, high in zip(LD_lower, LD_upper)
+        ],
+        &quot;Simulated net cost (£bn)&quot;: pd.Series(costs).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;UBI cost&quot;: pd.Series(ubi_cost).apply(lambda x: round(x / 1e9, 1)),
+        &quot;Tax revenue&quot;: pd.Series(reform_tax_revenue).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;Reduced benefits&quot;: pd.Series(benefit_revenue).apply(
+            lambda x: round(x / 1e9, 1)
+        ),
+        &quot;Difference from central estimate (£bn)&quot;: [
+            round((c - (low + high) / 2 * 1e9) / 1e9, 1)
+            for c, low, high in zip(costs, LD_lower, LD_upper)
+        ],
+    }
+).set_index(&quot;UBI (£/week)&quot;)
+table
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_former_notion() {
+  var x = document.getElementById(&quot;code_block_former_notion&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_former_notion_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_former_notion_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_former_notion_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Thanks to Kevin Langford, who provided more details on the policy proposal by the Working Group not present in the discussion paper, and on the modelling approaches that produced the cost estimates. Some of the mechanics of this type of scheme are set out in Langfords paper, &lt;a href=&quot;https://radixuk.org/papers/money-for-nothing/&quot;&gt;&lt;i&gt;Money for Nothing?&lt;/i&gt;&lt;/a&gt;, published in May 2021 with Radix.&lt;/p&gt;
+
+&lt;h3 id=&quot;appendix-b-relationships-between-employment-and-net-income-for-other-household-types&quot;&gt;Appendix B: Relationships between employment and net income for other household types&lt;/h3&gt;
+
+&lt;p&gt;Below is a selection of the theoretical effects on different household types.&lt;/p&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_internal_warning()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_internal_warning&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def couple_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_person(age=27, is_benunit_head=False, name=&quot;adult2&quot;),
+    sim.add_benunit(adults=[&quot;adult&quot;, &quot;adult2&quot;], claims_UC=True),
+    sim.add_household(adults=[&quot;adult&quot;, &quot;adult2&quot;])
+
+
+fig, budget_df = plot_budget(couple_UC, &quot;Couple on Universal Credit&quot;)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_internal_warning() {
+  var x = document.getElementById(&quot;code_block_internal_warning&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_internal_warning_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_internal_warning_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_internal_warning_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_settled_authentication()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_settled_authentication&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates (Couple, UC)&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_settled_authentication() {
+  var x = document.getElementById(&quot;code_block_settled_authentication&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_settled_authentication_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_settled_authentication_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_settled_authentication_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_welsh_seating()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_welsh_seating&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def couple_children_UC(sim):
+    sim.add_person(age=26, is_benunit_head=True, name=&quot;adult&quot;),
+    sim.add_person(age=27, name=&quot;adult2&quot;),
+    sim.add_person(age=3, name=&quot;child&quot;),
+    sim.add_person(age=4, name=&quot;child2&quot;),
+    sim.add_benunit(
+        adults=[&quot;adult&quot;, &quot;adult2&quot;],
+        children=[&quot;child&quot;, &quot;child2&quot;],
+        claims_UC=True,
+        claims_child_benefit=True,
+    )
+    sim.add_household(adults=[&quot;adult&quot;, &quot;adult2&quot;], children=[&quot;child&quot;, &quot;child2&quot;])
+
+
+fig, budget_df = plot_budget(
+    couple_children_UC, &quot;Couple with two children on Universal Credit&quot;
+)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_welsh_seating() {
+  var x = document.getElementById(&quot;code_block_welsh_seating&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_welsh_seating_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_welsh_seating_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_welsh_seating_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button onclick=&quot;show_code_buried_grounds()&quot;&gt;Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div id=&quot;code_block_buried_grounds&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+mtr_graph = px.line(
+    budget_df[::5],
+    x=&quot;Employment income&quot;,
+    y=[
+        &quot;MTR (Baseline)&quot;,
+        &quot;MTR (Reform)&quot;,
+        &quot;Tax MTR (Baseline)&quot;,
+        &quot;Tax MTR (Reform)&quot;,
+        &quot;Income Tax MTR (Baseline)&quot;,
+        &quot;Income Tax MTR (Reform)&quot;,
+        &quot;NI MTR (Baseline)&quot;,
+        &quot;NI MTR (Reform)&quot;,
+        &quot;Benefit MTR (Baseline)&quot;,
+        &quot;Benefit MTR (Reform)&quot;,
+    ],
+    animation_frame=&quot;UBI&quot;,
+    color_discrete_sequence=individual_colors,
+).update_layout(
+    title=&quot;Effect of UBI reforms on marginal tax rates (Couple, two children, UC)&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    xaxis_tickprefix=&quot;£&quot;,
+    yaxis_title=&quot;Yearly amount&quot;,
+    xaxis_title=&quot;Employment income&quot;,
+    legend_title_text=&quot;&quot;,
+)
+hidden = [False] * 2 + [True] * 8
+for i in range(10):
+    if hidden[i]:
+        mtr_graph.data[i].visible = &quot;legendonly&quot;
+
+fig = format_fig(mtr_graph)
+fig
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function show_code_buried_grounds() {
+  var x = document.getElementById(&quot;code_block_buried_grounds&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_buried_grounds_1&quot;).load(&quot;/assets/markdown_assets/libdem-ubi-analysis/graph_buried_grounds_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_buried_grounds_1&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;The findings from the Working Group’s paper were presented by Paul Noblet, the chair, in the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi_recording&quot;&gt;recorded Social Liberal Forum event&lt;/a&gt; What Kind of UBI?, in which Jane Dodds (Leader of the Liberal Democrats in Wales), Christine Jardine (Liberal Democrat MP for Edinburgh West) and Max Ghenis (Founder of the UBI Center) gave first responses to the proposals. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Modeling was carried out using the open-sourced static microsimulation model &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk&quot;&gt;OpenFisca-UK&lt;/a&gt;. The code to reproduce all figures and findings is available on &lt;a href=&quot;https://github.com/ubicenter/libdem-ubi-analysis&quot;&gt;GitHub&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;The higher allowance and threshold in the first reform increases the net cost by around £8bn. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Nikhil Woodruff</name></author><category term="uk" /><summary type="html">The UK party is exploring UBI reforms that would reduce poverty and inequality.</summary></entry><entry><title type="html">Blank slate UBI: A constructive challenge for the UK basic income debate</title><link href="/uk-blank-slate-ubi" rel="alternate" type="text/html" title="Blank slate UBI: A constructive challenge for the UK basic income debate" /><published>2021-05-12T00:00:00+00:00</published><updated>2021-05-12T00:00:00+00:00</updated><id>/uk-blank-slate-ubi</id><content type="html" xml:base="/uk-blank-slate-ubi">&lt;h2 id=&quot;read-the-report-here&quot;&gt;&lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;Read the report here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We’re thrilled to have launched our first report in the UK: &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/socialliberalforum/pages/3398/attachments/original/1620835589/SLF_UBI_Center_Report_FINAL.pdf?1620835589&quot;&gt;“Blank Slate UBI: A Constructive Challenge for the UK Basic Income Debate.”&lt;/a&gt; The report, which we published with the UK’s &lt;a href=&quot;https://www.socialliberal.net/&quot;&gt;Social Liberal Forum&lt;/a&gt;, models three audacious budget-neutral UBI plans. These plans replace the existing tax and benefit system with a 50 percent flat income tax, which funds UBIs of between £60 and £221 per week, depending on age and policy design, including supplements for disability and region. As a result, poverty would fall by 32 percent or more, deep poverty by 86 percent, and the Gini inequality index by at least 8 percent; 58 percent of Britons would come out ahead on a net basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/table.png&quot; alt=&quot;Summary statistics&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This report is the UBI Center’s first simulation of UBI in the UK, and the first application of the &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca-UK&lt;/a&gt; open-source microsimulation model of the UK tax and benefit system, which the UBI Center developed with &lt;a href=&quot;http://openfisca.org&quot;&gt;OpenFisca&lt;/a&gt; and the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;. The report also demonstrates the first budget-neutral UK simulation to fund such generous UBI amounts—an average of £140 per week—and to reduce poverty to such a degree.&lt;/p&gt;
+
+&lt;p&gt;As an example of the progressivity that can be achieved with this kind of wholesale reform, consider the effect by decile. Under each of the three reforms, the bottom decile benefits by at least 50 percent on average, while the upper three deciles lose 6-7 percent of their income.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/decile_pct.png&quot; alt=&quot;Average percent effect by decile&quot; title=&quot;Average percent effect by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The effect is progressive not only on an average basis but also within deciles; for example, 92 percent of the bottom decile would see their incomes rise by at least 5 percent, compared to only 8 percent of the top decile with major gains (considering our reform with a disability supplement). We applied optimization algorithms to design the UBI policies as to minimize these losses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-05-13-uk-blank-slate-ubi/within_decile_2.png&quot; alt=&quot;Distribution of effects by decile&quot; title=&quot;Distribution of effects by decile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UBI discussion may be more advanced in the UK than in any country on Earth, and this launch marks only the beginning of our investment to contribute data and evidence to that discussion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;To hear more about this report, join the &lt;a href=&quot;https://www.socialliberal.net/what_kind_of_ubi&quot;&gt;Social Liberal Forum’s event&lt;/a&gt; today (Thursday) at 19:00 UK time, including Max Ghenis (president of the UBI Center and one of the report’s authors), along with Paul Noblet (chair of the Liberal Democrats UBI Policy Working Group), Christine Jardine (MP for Edinburgh West and Liberal Democrat lead on the Cross-Party Parliamentary and Local Government Working Group on UBI), and Jane Dodds (Leader of the Liberal Democrats in Wales, and chair of the Lib Dems for Basic Income campaign group).&lt;/em&gt;&lt;/p&gt;</content><author><name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;deepak&quot;, &quot;charles&quot;]</name></author><category term="uk" /><summary type="html">Our first UK report, published with the Social Liberal Forum, simulates audacious UBI-centered reforms to the tax and benefit systems.</summary></entry><entry><title type="html">The American Rescue Plan was a step toward universal basic income</title><link href="/arp-op-ed" rel="alternate" type="text/html" title="The American Rescue Plan was a step toward universal basic income" /><published>2021-05-07T00:00:00+00:00</published><updated>2021-05-07T00:00:00+00:00</updated><id>/arp-op-ed</id><content type="html" xml:base="/arp-op-ed">&lt;h2 id=&quot;read-the-op-ed-here&quot;&gt;&lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;Read the op-ed here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In my latest op-ed, I argue that cash assistance policies (the expanded Child Tax Credit and $1,400 checks) were some of the most popular and effective parts of the American Rescue Plan; that they would have been even better if closer to universal basic income; and that we should double down on those cash successes with a permanent child allowance and carbon dividend.
+You can &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;read it at The Hill&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Joshua Miller for research assistance.&lt;/em&gt;&lt;/p&gt;</content><author><name>[&quot;max&quot;]</name></author><category term="op-ed" /><category term="us" /><summary type="html">My latest op-ed argues that cash assistance was the key to the American Rescue Plan's success.</summary></entry><entry><title type="html">Welcome to our new open-source website</title><link href="/new-open-source-website" rel="alternate" type="text/html" title="Welcome to our new open-source website" /><published>2021-04-22T00:00:00+00:00</published><updated>2021-04-22T00:00:00+00:00</updated><id>/new-open-source-website</id><content type="html" xml:base="/new-open-source-website">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;The UBI Center’s mission is to produce open-source research that informs a robust policy debate around universal basic income. We emphasize “open-source” because we believe that the public deserves full transparency into research that influences economic policy, and because we know that feedback and contributions improve our work, whether or not it comes from our staff. As our friends at the &lt;a href=&quot;https://pslmodels.org/&quot;&gt;Policy Simulation Library&lt;/a&gt; say, “Open Models == Better Policy.”&lt;/p&gt;
+
+&lt;p&gt;The UBI Center has been dedicated to open-source research since its inception. In our &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;first&lt;/a&gt; &lt;a href=&quot;https://www.ubicenter.org/budgetneutral-version-of-andrew-yangs-freedom-dividend&quot;&gt;studies&lt;/a&gt; of Andrew Yang’s Freedom Dividend, we just cited Jupyter &lt;a href=&quot;https://github.com/UBICenter/ubi-center/tree/master/notebooks/yang&quot;&gt;notebooks&lt;/a&gt; stored on GitHub. Later, we moved to the &lt;a href=&quot;https://jupyterbook.org/&quot;&gt;Jupyter Book&lt;/a&gt; platform for our &lt;a href=&quot;https://blog.ubicenter.org&quot;&gt;blog&lt;/a&gt; and &lt;a href=&quot;https://child-allowance.ubicenter.org&quot;&gt;child allowance&lt;/a&gt; website; we published Jupyter notebooks directly as webpages using GitHub Pages and GitHub Actions. We’ve also been developing open-source software with the Policy Simulation Library like &lt;a href=&quot;https://github.com/pslmodels/openfisca-uk&quot;&gt;openfisca-uk&lt;/a&gt;, a microsimulation model of the UK tax and benefit system, and &lt;a href=&quot;https://github.com/pslmodels/microdf&quot;&gt;microdf&lt;/a&gt;, a data analysis package for weighted survey microdata.&lt;/p&gt;
+
+&lt;p&gt;This week, we’re taking the open-source part of our mission to a new level: we’re re-launching &lt;a href=&quot;https://ubicenter.org&quot;&gt;ubicenter.org&lt;/a&gt; as a new website hosted entirely on GitHub. We’ve moved all our posts from &lt;a href=&quot;https://medium.com/ubicenter&quot;&gt;Medium&lt;/a&gt; and &lt;a href=&quot;https://blog.ubicenter.org&quot;&gt;blog.ubicenter.org&lt;/a&gt; (which was hosted with &lt;a href=&quot;https://jupyterbook.org/&quot;&gt;JupyterBook&lt;/a&gt;) to the format you’re seeing here, as well as content from our old Google Sites website. We’re using the &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; blogging platform, the &lt;a href=&quot;https://github.com/jekyller/jasper2&quot;&gt;Jasper2&lt;/a&gt; theme (based on &lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;’s &lt;a href=&quot;https://github.com/TryGhost/Casper&quot;&gt;Casper&lt;/a&gt; theme), &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;, and &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;, plus a &lt;a href=&quot;github.com/UBICenter/plotly-converter&quot;&gt;utility&lt;/a&gt; we built for turning Jupyter notebooks into Markdown files with interactive graphics. All the code is at &lt;a href=&quot;https://github.com/ubicenter/ubicenter.org&quot;&gt;github.com/ubicenter/ubicenter.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Beyond the advantages of open-source, our new website provides a cleaner look, more immediate access to our new research, a unified view of our projects, and organization by author and topic. For example, you can see all our research on UBI and race at &lt;a href=&quot;https://ubicenter.org/tag/race&quot;&gt;ubicenter.org/tag/race&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-04-22-new-open-source-website/race-tag.webp&quot; alt=&quot;Posts with the &amp;quot;race&amp;quot; tag&quot; title=&quot;image_tooltip&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And just like our previous JupyterBook sites like &lt;a href=&quot;https://blog.ubicenter.org/&quot;&gt;blog.ubicenter.org&lt;/a&gt;, we still have interactive visualizations and a toggle to see the Python code that generates them, like this chart from our &lt;a href=&quot;https://www.ubicenter.org/womens-day-2021&quot;&gt;Women’s Day 2021 post&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;We have much more to do, as we’ve listed on &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues&quot;&gt;github.com/UBICenter/ubicenter.org/issues&lt;/a&gt;. From completing the &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/161&quot;&gt;migration&lt;/a&gt; &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/162&quot;&gt;from JupyterBook&lt;/a&gt; to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/3&quot;&gt;adding a search bar&lt;/a&gt; to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/149&quot;&gt;embedding our Twitter feed&lt;/a&gt;, we’re prioritizing openness in our future development. If you see something off, or if there’s something you’d like to see, feel free to &lt;a href=&quot;https://github.com/UBICenter/ubicenter.org/issues/new&quot;&gt;submit an issue&lt;/a&gt;. And if you’d like to contribute, check out our open &lt;a href=&quot;https://ubicenter.org/about/join/&quot;&gt;research assistantships and internships&lt;/a&gt;.&lt;/p&gt;</content><author><name>[&quot;matt&quot;, &quot;yuri&quot;]</name></author><category term="open source" /><category term="website" /><summary type="html">Bringing together all our research in one GitHub-served platform.</summary></entry><entry><title type="html">California’s basic income bill still needs work</title><link href="/california-ab65-calubi" rel="alternate" type="text/html" title="California's basic income bill still needs work" /><published>2021-04-03T00:00:00+00:00</published><updated>2021-04-03T00:00:00+00:00</updated><id>/california-ab65-calubi</id><content type="html" xml:base="/california-ab65-calubi">&lt;p&gt;In 2018, the California Democratic Party &lt;a href=&quot;https://www.cnbc.com/2018/03/12/california-democratic-party-platform-supports-universal-basic-income.html&quot;&gt;added&lt;/a&gt; Universal Basic Income (UBI) to their party platform. Two years later, Assemblymember Evan Low (D-Campbell), who served as a &lt;a href=&quot;https://www.ebar.com/news/latest_news//286838&quot;&gt;national co-chair&lt;/a&gt; for Andrew Yang’s presidential campaign, introduced a &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2712&quot;&gt;UBI bill&lt;/a&gt; for California. In December 2020, Low reintroduced the bill for the 2020-21 legislative session, this time with Senator Scott Wiener (D-San Francisco) as a coauthor and adding some minor revisions.&lt;/p&gt;
+
+&lt;p&gt;That bill, &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB65&quot;&gt;AB65&lt;/a&gt;, establishes the CalUBI program to provide $1,000 per month to most California adults. We estimate that CalUBI would cut poverty by 83% while adding $282 billion to the annual state deficit. In this article, we provide more detail into these estimates and suggest paths toward feasible legislation.&lt;/p&gt;
+
+&lt;h2 id=&quot;californias-extreme-economy&quot;&gt;California’s extreme economy&lt;/h2&gt;
+
+&lt;p&gt;California is both rich and poor. It ranks #8 among US states on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP_per_capita&quot;&gt;GDP per capita&lt;/a&gt;, and #7 on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income&quot;&gt;median household income&lt;/a&gt;. It also ranks &lt;a href=&quot;https://www.epi.org/multimedia/unequal-states-of-america/#/California&quot;&gt;#7 on income inequality&lt;/a&gt;,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and accordingly, its poverty rate is higher than its GDP would predict, &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate#cite_note-9&quot;&gt;ranking #25&lt;/a&gt; based on the Official Poverty Measure (OPM).&lt;/p&gt;
+
+&lt;p&gt;When using the Supplemental Poverty Measure&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; (SPM), however, California ranks &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-272.pdf&quot;&gt;#1 on both overall poverty and child poverty&lt;/a&gt;: 17.2% of Californians are in poverty, compared to 12.5% of Americans. In fact, California has ranked #1 on SPM poverty every year since the Census Bureau first reported it by state in &lt;a href=&quot;https://www2.census.gov/library/publications/2012/demo/p60-244.pdf&quot;&gt;2011&lt;/a&gt;. That’s because the SPM, unlike the OPM, adjusts for taxes, in-kind benefits (like the Supplemental Nutrition Assistance Program), and, most importantly for California, local housing costs. As a result of its housing shortage (California has the &lt;a href=&quot;https://twitter.com/MaxGhenis/status/1187898060409466882&quot;&gt;fewest housing units per adult&lt;/a&gt; of any state), housing in California is notoriously expensive—&lt;a href=&quot;https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state&quot;&gt;second only to Hawaii&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;California also stands out in terms of taxation.
+Due to Prop 13 (1978), a ballot measure that limits property taxes, it ranks &lt;a href=&quot;https://wallethub.com/edu/states-with-the-highest-and-lowest-property-taxes/11585&quot;&gt;#35 on local property taxes&lt;/a&gt;.
+The state offsets that revenue loss with high income taxes—its &lt;a href=&quot;https://taxfoundation.org/publications/state-individual-income-tax-rates-and-brackets/&quot;&gt;top marginal rate is 13.3%&lt;/a&gt;, the highest of any state—and high sales taxes—its &lt;a href=&quot;https://taxfoundation.org/2020-sales-taxes/&quot;&gt;state rate is 7.25%&lt;/a&gt;, the highest of any state, and its state and local combined rate ranks #9. It is among the 41 states that &lt;a href=&quot;https://www.cbpp.org/research/state-budget-and-tax/state-taxes-on-capital-gains&quot;&gt;tax capital gains as ordinary income&lt;/a&gt;, which raises significant revenue given its residents claim 8.1% of their income in capital gains, a higher share than all but three states. The net result is a &lt;a href=&quot;https://taxfoundation.org/publications/state-local-tax-burden-rankings/&quot;&gt;state and local tax burden of 11.5%&lt;/a&gt;, ranking #8 across states.&lt;/p&gt;
+
+&lt;p&gt;The state deploys these higher-than-average tax revenues for generous transfers. It matches the federal Earned Income Tax Credit at &lt;a href=&quot;https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/state-earned-income-tax-credits&quot;&gt;85% for low income workers&lt;/a&gt;, a higher rate than any other state, and adds a &lt;a href=&quot;https://www.ftb.ca.gov/file/personal/credits/california-earned-income-tax-credit.html&quot;&gt;Young Child Tax Credit&lt;/a&gt; supplement for qualifying families with children under age 6. Due to generously funding the Aid to Dependent Families Children (cash welfare) matching grant in the 1990s, California today gets &lt;a href=&quot;https://www.niskanencenter.org/inequitable-and-inadequate-reforming-federal-grants-for-state-social-assistance-programs/&quot;&gt;more per child&lt;/a&gt; from its replacement, Temporary Assistance for Needy Families (TANF), than all states but New York and Vermont. And while California has &lt;a href=&quot;https://ca.db101.org/ca/programs/income_support/calworks/program2.htm&quot;&gt;not yet eliminated asset limits for TANF&lt;/a&gt;, it is among the 33 states to have &lt;a href=&quot;https://www.cbpp.org/research/food-assistance/snaps-broad-based-categorical-eligibility-supports-working-families-and&quot;&gt;raised income and asset limits for SNAP&lt;/a&gt;. It &lt;a href=&quot;https://www.kff.org/medicaid/issue-brief/status-of-state-medicaid-expansion-decisions-interactive-map/&quot;&gt;expanded Medicaid&lt;/a&gt; as quickly as it could following the passage of the Affordable Care Act, and overall spends more &lt;a href=&quot;https://www.taxpolicycenter.org/statistics/state-and-local-general-expenditures-capita&quot;&gt;per capita on public welfare&lt;/a&gt; than 43 states.&lt;/p&gt;
+
+&lt;p&gt;Lack of welfare spending doesn’t explain California’s highest-in-the-nation poverty rate, but more inclusive and generous welfare programs can nonetheless ameliorate it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-impact-of-ab65&quot;&gt;The impact of AB65&lt;/h2&gt;
+
+&lt;p&gt;AB65 creates the CalUBI program, which provides $1,000 per month to Californians meeting these eligibility conditions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(A) Is a resident, and has been a resident for the three most recent consecutive taxable years.&lt;/p&gt;
+
+  &lt;p&gt;(B) Is at least 18 years of age.&lt;/p&gt;
+
+  &lt;p&gt;(C) Is not currently incarcerated in a county jail or the state prison.&lt;/p&gt;
+
+  &lt;p&gt;(D) Reported gross income that does not exceed 200 percent of the median per capita income for the eligible recipient’s current county of residence, as determined by the United States Census Bureau.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;AB65 also levies a 1% tax on incomes above $2 million.&lt;/p&gt;
+
+&lt;p&gt;Using data from the 2017-2019 Current Population Survey March Supplements, we estimate that 58% of Californians would be eligible for CalUBI. 77% meet the age requirement, 83% meet the income requirement,&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 97% meet the migration requirement,&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and 99.5% meet the incarceration requirement.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; Providing the $12,000 payment to each of the 23.6 million eligible recipients would cost $283 billion per year.&lt;/p&gt;
+
+&lt;p&gt;Enacting the policy would reduce poverty by 83%, to 3.0%; for context, Minnesota currently has the lowest poverty rate, at 6.5%. It would also reduce inequality by 26%.&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; For these calculations, we assume that the CalUBI would not be counted as income for tax liabilities or benefit eligibility, though this may be unrealistic: Alaska’s Permanent Fund Dividend does not affect eligibility for programs like &lt;a href=&quot;https://ak.db101.org/ak/programs/income_support/ssi/faqs.htm#_q7329&quot;&gt;Supplemental Security Income&lt;/a&gt;, but the payments are &lt;a href=&quot;https://pfd.alaska.gov/Payments/Tax-Information#:~:text=Even%20if%20part%20or%20all,Permanent%20Fund%20Dividend%20is%20%24992.00.&quot;&gt;subject&lt;/a&gt; to federal income tax (Alaska has &lt;a href=&quot;http://tax.alaska.gov/programs/programs/index.aspx?10001&quot;&gt;no state income tax&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;However, the program lacks funding. Using the Policy Simulation Library’s &lt;a href=&quot;https://www.compute.studio/PSLmodels/Tax-Brain/&quot;&gt;TaxBrain&lt;/a&gt; tool and the IRS Public Use File, we estimate that a 1% tax on incomes above $2 million would raise &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/50389/&quot;&gt;$2.33 billion federally&lt;/a&gt;. Scaling that down to California by its share of personal income in excess of $100,000&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; yields a revenue estimate of $340 million, or 0.1% of CalUBI’s cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;perverse-incentives-from-means-testing&quot;&gt;Perverse incentives from means-testing&lt;/h2&gt;
+
+&lt;p&gt;The CalUBI means-testing approach creates perverse incentives in two ways: its immediate benefit cliff discourages people from working, and its geographic cliff discourages people from residing in lower-income counties.&lt;/p&gt;
+
+&lt;p&gt;As an example, consider a single resident of Santa Clara County earning $100,000 per year, let’s call them Alex. Santa Clara County is home to Google, Apple, San Jose, and Assemblymember Evan Low, and its median personal income is about $53,500, second only to San Francisco County ($55,000) in California. With income below twice the median, Alex would be eligible for CalUBI. Their net income would be $100,000 minus $28,743 in federal, FICA, and state income taxes,&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; plus $12,000 in CalUBI, totaling $83,257.&lt;/p&gt;
+
+&lt;p&gt;Now suppose Alex is offered a job that pays 10% more. At $110,000 income, they exceed the $107,000 CalUBI threshold for Santa Clara County, so they no longer receive the $12,000 payment. As a result of their raise, Alex’s net income &lt;em&gt;falls 7%&lt;/em&gt; from $83,257 to $77,162. To get back to their original net income, they’d have to earn more than $120,000; if Alex can’t get at least a 20% raise, they’re better off with their current income.&lt;/p&gt;
+
+&lt;p&gt;Suppose that instead of taking a new higher-paying job in Santa Clara County, Alex considers moving to neighboring Santa Cruz County for a job paying the same $100,000. Where the median income in Santa Clara County is over $53,000, it’s under $33,000 in Santa Cruz County. Alex would lose CalUBI eligibility, and their net income would therefore fall $12,000—a full 14%—if they were to cross the county border.&lt;/p&gt;
+
+&lt;p&gt;These welfare cliffs and discontinuities harmfully distort behavior. People like Alex will avoid earning too much money, or perhaps they’ll favor a job with deferred compensation plans to lower their income, or they’ll defer capital gains themselves, all to stay under the threshold in their county. They’ll also avoid moving to lower-income areas, maybe choosing to commute from a more expensive area instead to retain CalUBI eligibility. This would increase geographic inequalities by raising high-income people’s demand to live in high-income areas. Just as &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0094119011000520&quot;&gt;school district boundaries determine housing prices&lt;/a&gt;, county boundaries would do the same under this policy.&lt;/p&gt;
+
+&lt;h2 id=&quot;universal-designs&quot;&gt;Universal designs&lt;/h2&gt;
+
+&lt;p&gt;AB65’s cliff could be mitigated by phasing the benefit out with income, as programs like SNAP and the Earned Income Tax Credit do, and as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Negative_income_tax&quot;&gt;negative income tax&lt;/a&gt; cousin of UBI does. Depending on the design, this could avoid Alex’s quagmire and ensure that any additional dollar they earn raises their net income.&lt;/p&gt;
+
+&lt;p&gt;However, this phase-out would be a hidden tax: if the benefit phases out at 50 cents per dollar of earnings, that’s equivalent to a 50% marginal tax, on top of normal taxes and phase-outs of other benefits. The array of means-tested benefits explains why parents around the poverty line currently face &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;higher marginal tax rates&lt;/a&gt; than any other group in the country, often exceeding 50% and sometimes exceeding 100%.&lt;/p&gt;
+
+&lt;p&gt;Further, if the benefit is means-tested but distributed monthly, recipients would be required to report changes to their income regularly. This costs recipients of existing benefits time and explains some of the &lt;a href=&quot;https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is&quot;&gt;high administrative overhead costs&lt;/a&gt;. To support income reporting requirements for the American Rescue Plan’s monthly Child Tax Credit expansion, the IRS is building a portal, an endeavor that’s &lt;a href=&quot;https://abc11.com/child-tax-credit-irs-stimulus-delay/10432494/&quot;&gt;slowing the delivery&lt;/a&gt; of funds to low and middle income parents. The alternative is how refundable tax credits work today: calculated from income often a year or more in the past, without the ability to meet real-time needs, especially when financial circumstances change.&lt;/p&gt;
+
+&lt;p&gt;Other AB65 targeting provisions have drawbacks, too. County-level income thresholds will induce migration even with phase-outs. A three-year residency requirement conflicts with Californians’ &lt;a href=&quot;https://www.latimes.com/california/story/2021-04-01/skelton-ppic-poll-immigration-healthcare-california&quot;&gt;pro-immigration sentiment&lt;/a&gt; (the Alaska Permanent Fund Dividend only has a &lt;a href=&quot;https://pfd.alaska.gov/Eligibility/Requirements&quot;&gt;one-year requirement&lt;/a&gt;). And as our other research shows, excluding children misses an opportunity to &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve lifelong development&lt;/a&gt;, and to &lt;a href=&quot;https://blog.ubicenter.org/20210120/child-ubi-share.html&quot;&gt;cost-effectively reduce poverty&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Universality bypasses all of these issues. Universal payments don’t discourage work through hidden taxes or cliffs; they don’t require recipients to report income more than once per tax year; they can be efficiently distributed; they demonstrate inclusiveness toward newcomers; and they provide kids the resources they need to thrive.&lt;/p&gt;
+
+&lt;p&gt;Of course, universality is more expensive. Expanding CalUBI to each person in California would raise the cost from $283 billion to $472 billion—a sixth of the &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;state’s GDP&lt;/a&gt; and more than twice the &lt;a href=&quot;https://www.gov.ca.gov/2021/01/08/governor-newsom-proposes-2021-22-state-budget&quot;&gt;current state budget&lt;/a&gt;. If funds could be conjured to pay for it, it would drive down the poverty rate to 1.2%.&lt;/p&gt;
+
+&lt;p&gt;But given a fixed budget, poverty is often minimized by spreading it across more of the population in smaller amounts. Spreading the $283 billion across each person in California would give each about $590 per month, and this would have virtually the same antipoverty impact as the original proposal.&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; That is, excluding children and newcomers offsets the progressivity of excluding higher-income people (not to mention the distortions).&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, the $283 billion price tag makes AB65 unworkable as written. What policies could make progress toward its goals?&lt;/p&gt;
+
+&lt;h2 id=&quot;a-california-child-allowance&quot;&gt;A California child allowance&lt;/h2&gt;
+
+&lt;p&gt;Monthly cash transfers can efficiently relieve poverty and reduce inequality at the state level, but given to everyone, they’re costly. Even a $100 monthly UBI would cost California $48 billion per year, more than a fifth of the current state budget.&lt;/p&gt;
+
+&lt;p&gt;A focus on children could be a tenable, effective starting point. Given &lt;a href=&quot;https://www.census.gov/quickfacts/CA&quot;&gt;9 million&lt;/a&gt; of California’s 40 million residents are under 18, a $100 monthly child allowance (cash payments given to parents for each child) would cost $11 billion annually. That’s 0.4% of &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;California’s $2.9 trillion GDP&lt;/a&gt; or 5% of its proposed &lt;a href=&quot;http://www.ebudget.ca.gov/2021-22/pdf/BudgetSummary/SummaryCharts.pdf&quot;&gt;$227 billion budget&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;https://child-allowance.ubicenter.org/simulation.html&quot;&gt;child allowance simulation&lt;/a&gt; shows that this would be achievable and impactful in California. The state could fund a $100 monthly child allowance with a 1% income tax, cutting child poverty by 16%, adult poverty by 5%, and overall poverty by 7%. The bottom decile of Californians would see incomes rise by 11%, and on average only the upper three deciles would lose income, and only by under 1%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2021-04-03-california-ab65-calubi/deciles_100_child_allowance.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A number of revenue options could fund such a program:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding to the income tax, as described in the above simulation.&lt;/li&gt;
+  &lt;li&gt;Applying California’s expected &lt;a href=&quot;https://apnews.com/article/gavin-newsom-california-coronavirus-pandemic-8d01e88ceeb4b0bc6cb1fb0d6a8d72b7&quot;&gt;$15 billion surplus&lt;/a&gt; in 2021. This wouldn’t fund a permanent policy, but could fund a $100 monthly child allowance, plus a $100 monthly young child supplement, for a trial year.&lt;/li&gt;
+  &lt;li&gt;Taxing commercial property at market value would raise between &lt;a href=&quot;https://lao.ca.gov/BallotAnalysis/Proposition?number=15&amp;amp;year=2020#:~:text=The%20measure%20requires%20commercial%20and,over%20time%20starting%20in%202022.&quot;&gt;$6.5 and $11.5 billion&lt;/a&gt; per year. A ballot measure to do this &lt;a href=&quot;https://www.latimes.com/california/story/2020-11-10/proposition-15-commercial-property-tax-defeated&quot;&gt;narrowly lost&lt;/a&gt; in 2020.&lt;/li&gt;
+  &lt;li&gt;Ending the mortgage interest deduction on second homes would raise $250 million per year. &lt;a href=&quot;https://a25.asmdc.org/press-releases/20210219-assemblymember-alex-lee-introduces-repeal-regressive-mortgage-interest&quot;&gt;AB946&lt;/a&gt; proposes to do this, though the revenue is used for a first-time home buyer program.&lt;/li&gt;
+  &lt;li&gt;Conforming parts of the state income tax code with federal tax code changes enacted as part of the 2017 Tax Cuts and Jobs Act; this would raise &lt;a href=&quot;https://lao.ca.gov/Publications/Report/3959&quot;&gt;$1.7 billion&lt;/a&gt; per year.&lt;/li&gt;
+  &lt;li&gt;Replacing other benefit programs, such as CalWORKS (the state TANF program), Special Supplemental Nutrition Program for Women, Infants, and Children (WIC), the child component of CalEITC, and the Young Child Tax Credit.&lt;/li&gt;
+  &lt;li&gt;Instituting an estate tax, as was &lt;a href=&quot;https://sd11.senate.ca.gov/news/20190326-senator-wiener-introduces-california-estate-tax-proposal-fund-programs-reducing-wealth&quot;&gt;proposed in 2017&lt;/a&gt; and which was estimated to raise between $500 million and $1 billion per year.&lt;/li&gt;
+  &lt;li&gt;Repealing other state tax deductions that primarily benefit high income households, such as the property tax deduction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;or-a-california-young-child-allowance&quot;&gt;Or a California young child allowance&lt;/h2&gt;
+
+&lt;p&gt;For greater affordability, California could focus on the group whose development is most sensitive to financial conditions, and whose needs are most costly due to childcare: young kids. Providing a young child allowance of $100 per month to each of California’s 3 million Californians children under age 6 would cost $4 billion annually.&lt;/p&gt;
+
+&lt;p&gt;Washington and Sacramento have both already prioritized the needs of young kids: the American Rescue Plan’s &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2021/03/11/new-child-tax-credit-could-slash-poverty-now-and-boost-social-mobility-later/&quot;&gt;Child Tax Credit expansion&lt;/a&gt; provides an extra $50 per month to children under age 6 compared to older kids, and California provides a Young Child Tax Credit (YCTC) of up to $1,000 per year to families who qualify for the federal Earned Income Tax Credit and have at least one child under age 6.&lt;/p&gt;
+
+&lt;p&gt;Transforming the YCTC into a young child allowance of $100 per month per child would have several benefits, by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Including families with no earned income who are ineligible for EITC&lt;/li&gt;
+  &lt;li&gt;Providing more money for families with multiple young children&lt;/li&gt;
+  &lt;li&gt;Avoiding adding a 20% marginal tax to qualifying families with income between the phase-out region of $25,000 and $30,000&lt;/li&gt;
+  &lt;li&gt;Including children whose parents earn above $30,000&lt;/li&gt;
+  &lt;li&gt;Enhancing the benefit by at least $200 per year for all current recipients&lt;/li&gt;
+  &lt;li&gt;Meeting needs on a monthly basis&lt;/li&gt;
+  &lt;li&gt;Potentially sending parents money proactively, rather than relying on families filing tax returns (many of whom don’t have to file since they don’t owe taxes)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;california-can-make-policy-progress-toward-ubi&quot;&gt;California can make policy progress toward UBI&lt;/h2&gt;
+
+&lt;p&gt;California is in many ways the center of the UBI conversation. Its tech community has long promoted the idea as an insurance policy against technological unemployment, supporting Andrew Yang’s candidacy, funding basic income pilots, and donating to &lt;a href=&quot;https://www.givedirectly.org/basic-income/&quot;&gt;GiveDirectly’s basic income experiment&lt;/a&gt; in Kenya. Of the 40 mayors in the &lt;a href=&quot;https://www.mayorsforagi.org/&quot;&gt;Mayors for a Guaranteed Income&lt;/a&gt; network, 6 lead California cities, including its founder, Michael Tubbs. The pilot in Tubbs’s hometown of Stockton was one of the first of a &lt;a href=&quot;https://basicincome.stanford.edu/experiments-map/&quot;&gt;wave&lt;/a&gt; that now includes Compton, Long Beach, Oakland, Marin County, and San Francisco.&lt;/p&gt;
+
+&lt;p&gt;These pilots may provide more precise estimates of how people respond to guaranteed income, but we already know from a slew of studies that cash transfers &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve health, well-being, and educational outcomes&lt;/a&gt;, and that they &lt;a href=&quot;https://scholar.harvard.edu/files/remahanna/files/151016_labor_supply_paper_draft_final.pdf&quot;&gt;don’t reduce labor supply much&lt;/a&gt; or &lt;a href=&quot;https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no&quot;&gt;raise spending on vices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In introducing AB65, Assemblymember Low has started the next phase of California’s UBI conversation. The idea is ready for policy implementation, but if it’s to be more than signaling, it will need to fit in a budget the governor can sign.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nick Rodelo provided research assistance for this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;California has the 7th highest ratio of top 1% to bottom 99% income: 30.7, compared to 26.3 nationwide. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Poverty researchers &lt;a href=&quot;https://www.vox.com/2015/9/16/9337041/supplemental-poverty-measure&quot;&gt;generally prefer the SPM&lt;/a&gt; over the OPM, and that’s what the UBI Center uses in its analysis. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;We interpreted a county’s “median per capita income” as the median personal income among people with income greater than zero. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;The Current Population Survey only includes migration data from one year ago. 1.0% of Californians lived in a different state one year ago. To approximate the three-year requirement, we tripled the observation weights for this 1%; this also served to “age” the data from the 2017-2019 period to 2021, as it produces a total population estimate of 40.1 million. The University of Virginia Weldon Cooper Center for Public Service &lt;a href=&quot;https://demographics.coopercenter.org/united-states-interactive-map&quot;&gt;projects&lt;/a&gt; that California’s 2020 population was 40.4 million. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://www.census.gov/programs-surveys/cps/technical-documentation/methodology.html&quot;&gt;Current Population Survey omits prisoners&lt;/a&gt;, so we used data from the &lt;a href=&quot;https://www.prisonpolicy.org/profiles/CA.html&quot;&gt;Prison Policy Initiative&lt;/a&gt;, which estimates that 213,000 Californians were in state prison or county jail as of 2018. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;We measure inequality as the Gini index of the ratio between a person’s poverty unit’s (similar to a household) resources and its poverty threshold. The current value is 0.42, and under CalUBI it would fall to 0.31. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;High incomes in the Current Population Survey are obscured for privacy, such that only three records show personal income above $2 million. It estimates that Californians have a total of $321 billion of income in excess of $100,000, 15% of the $2.18 trillion of US personal income in excess of $100,000. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;This and other calculations apply &lt;a href=&quot;https://smartasset.com/taxes/california-tax-calculator#VBrctYjFhi&quot;&gt;SmartAsset’s calculator&lt;/a&gt;. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;3.08% vs 3.03%. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;max&quot;]</name></author><category term="us" /><category term="california" /><summary type="html">AB65 would cut poverty by 83%, but add $282 billion to the state deficit.</summary></entry><entry><title type="html">UBI as a means of reducing gendered poverty</title><link href="/womens-day-2021" rel="alternate" type="text/html" title="UBI as a means of reducing gendered poverty" /><published>2021-03-08T00:00:00+00:00</published><updated>2021-03-08T00:00:00+00:00</updated><id>/womens-day-2021</id><content type="html" xml:base="/womens-day-2021">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;This year’s &lt;a href=&quot;https://www.internationalwomensday.com/&quot;&gt;International Women’s Day&lt;/a&gt; asks its celebrants to challenge the world in order to change it (&lt;a href=&quot;https://twitter.com/search?q=%23ChooseToChallenge&quot;&gt;#ChooseToChallenge&lt;/a&gt;).
+The following simulation seeks to challenge the fact that women in the United States are more likely to be impoverished than men.
+In our analysis, we evaluate a Universal Basic Income (UBI), funded by a flat income tax, as a possible solution for both alleviating poverty and narrowing the gendered poverty gap.&lt;sup id=&quot;fnref:modeling&quot;&gt;&lt;a href=&quot;#fn:modeling&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Poverty rates for children are roughly equal between genders, while adult women experience poverty at rates 17 percent greater than adult men: 12.4 percent vs. 10.6 percent.
+As a general trend, the difference in poverty rates between women and men increases with age.
+For example, 20.8 percent of women aged 85 or older are in poverty, compared to only 14.5 percent of men of the same age.
+Among people aged 85 or older, women experience deep poverty at twice the rate of men.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+pov_age_diff = pov_age[pov_age.variable == &quot;poverty&quot;].pivot_table(
+    values=&quot;value&quot;, index=&quot;age_group&quot;, columns=&quot;sex&quot;
+)
+pov_age_diff[&quot;female_minus_male&quot;] = pov_age_diff.Female - pov_age_diff.Male
+pov_age_diff.female_minus_male.plot()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;With a significant difference in rates of poverty for adult women as compared to men, how might a UBI help close that gap?
+Our past modeling has shown that a UBI would lessen poverty across demographic groups, and also shrink poverty disparities by &lt;a href=&quot;https://blog.ubicenter.org/20210118/racial-poverty-disparities-mlk-day-2021.html&quot;&gt;race&lt;/a&gt;, &lt;a href=&quot;https://blog.ubicenter.org/20201012/indigenous.html&quot;&gt;Indigenous heritage&lt;/a&gt;, and &lt;a href=&quot;https://blog.ubicenter.org/20200731/ada30.html&quot;&gt;disability status&lt;/a&gt;.
+Our research here shows that it would do the same by gender.&lt;/p&gt;
+
+&lt;p&gt;After receiving a UBI, the poverty rates for women and men converge as the monthly amount increases (we’ve focused on adults here).
+Consistent with our past simulations, a $300 monthly UBI would halve the rate of female poverty and female deep poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def pov(female, monthly_ubi):
+    # Calculate poverty rates for a gender subset given a monthly UBI amount.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi_pos  # Divide by positive AGI.
+    spm[&quot;new_resources&quot;] = (
+        spm.spm_resources - tax_rate * spm.agi_pos + (12 * monthly_ubi * spm.spm_numper)
+    )
+    person = df[(df.female == female) &amp;amp; (df.a_age &amp;gt; 17)].merge(
+        spm[[&quot;spm_id&quot;, &quot;new_resources&quot;]], on=&quot;spm_id&quot;
+    )
+    return pd.Series(
+        dict(
+            pov=mdf.poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+            deep_pov=mdf.deep_poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+        )
+    )
+
+
+def pov_row(row):
+    return pov(row.female, row.monthly_ubi)
+
+
+gender_ubi = mdf.cartesian_product(
+    {&quot;female&quot;: [True, False], &quot;monthly_ubi&quot;: np.arange(0, 1001, 100)}
+)
+gender_ubi = pd.concat([gender_ubi, gender_ubi.apply(pov_row, axis=1)], axis=1)
+
+gender_ubi_long = gender_ubi.melt(
+    id_vars=[&quot;female&quot;, &quot;monthly_ubi&quot;], value_vars=[&quot;pov&quot;, &quot;deep_pov&quot;]
+)
+gender_ubi_long[&quot;label&quot;] = (
+    pd.Series(np.where(gender_ubi_long.female, &quot;Female&quot;, &quot;Male&quot;))
+    + &quot; &quot;
+    + pd.Series(np.where(gender_ubi_long.variable == &quot;pov&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;))
+)
+gender_ubi_long.value = gender_ubi_long.value.round(3)
+
+fig = px.line(
+    gender_ubi_long,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;label&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_layout(
+    title=&quot;Poverty by gender and UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income amount (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;UBI significantly narrows the ratio of poverty and deep poverty rates for adult women compared to adult men.
+With a monthly UBI of $500, the rate of women compared to men in poverty is more than halved and the rate of women compared to men in deep poverty is nearly equal.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+gender_ratio = gender_ubi.pivot_table(
+    values=&quot;pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+gender_ratio[&quot;ratio&quot;] = gender_ratio.female / gender_ratio.male
+gender_ratio[&quot;poverty_type&quot;] = &quot;Poverty&quot;
+deep_gender_ratio = gender_ubi.pivot_table(
+    values=&quot;deep_pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+deep_gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+deep_gender_ratio[&quot;ratio&quot;] = deep_gender_ratio.female / deep_gender_ratio.male
+deep_gender_ratio[&quot;poverty_type&quot;] = &quot;Deep poverty&quot;
+
+gender_ratios = pd.concat([gender_ratio, deep_gender_ratio])
+gender_ratios.ratio = gender_ratios.ratio.round(2)
+
+fig = px.line(
+    gender_ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;ratio&quot;,
+    color=&quot;poverty_type&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_yaxes(range=[0.94, 1.18])
+fig.add_shape(
+    type=&quot;line&quot;,
+    x0=0,
+    y0=1,
+    x1=1000,
+    y1=1,
+    line=dict(color=LIGHT_GREY, dash=&quot;dash&quot;),
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+)
+
+fig.update_layout(
+    title=&quot;Poverty disparities by gender with respect to UBI&quot;,
+    xaxis_title=&quot;Monthly universal basic income (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;Ratio of women to men SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The gender income gap is inseparable from the issue of care work.
+On one hand, the &lt;a href=&quot;https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty&quot;&gt;“baby penalty”&lt;/a&gt; explains much of the gap, with mothers earning less than fathers while women and men without children have similar earnings.
+Meanwhile, &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;high marginal tax rates&lt;/a&gt; for low-income parents (due to the phasing out of benefits) discourages work disproportionately of mothers.
+A &lt;a href=&quot;https://americancompass.org/essays/home-building-survey-part-2/&quot;&gt;recent poll&lt;/a&gt; found that Americans prefer cash assistance to other family assistance policies like paid family leave, subsidized childcare, wage subsidies, and baby bonds.
+Mothers, fathers, and low-income people especially preferred cash assistance, which would likely be more distributionally progressive than other policy options.&lt;/p&gt;
+
+&lt;p&gt;In her &lt;a href=&quot;https://almazzelleke.files.wordpress.com/2014/01/zelleke-institutionalizing-the-universal-caretaker-dec-2008.pdf&quot;&gt;paper&lt;/a&gt; advocating for UBI as compared to other alternatives, political scientist Almaz Zelleke states that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhaps most importantly for advocates of gender equality, a basic income by virtue of its universality goes to both providers and recipients of care, and thus has the best chance of eliminating poverty for the most vulnerable group in contemporary capitalist economies: single mothers and their children. To any feminist, this should be a strong argument in favor of basic income.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Women provide most of the care work that today goes unpaid and unrecognized.
+UBI compensates for that care work, reducing gender inequities and investing in the well-being of the cared-for.
+Our analysis suggests that a UBI could be a relevant policy in the greater movement for the social, economic, and political equality of women.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:modeling&quot;&gt;
+      &lt;p&gt;Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP) and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. &lt;a href=&quot;#fnref:modeling&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;katarina&quot;, &quot;max&quot;]</name></author><category term="us" /><category term="gender" /><category term="poverty" /><summary type="html">Women are 17% more likely to be in poverty than men, but basic income would shrink the gap.</summary></entry><entry><title type="html">The effect of universal basic income on a novel measure of the racial wealth gap</title><link href="/racial-wealth-gap-ks" rel="alternate" type="text/html" title="The effect of universal basic income on a novel measure of the racial wealth gap" /><published>2021-02-28T00:00:00+00:00</published><updated>2021-02-28T00:00:00+00:00</updated><id>/racial-wealth-gap-ks</id><content type="html" xml:base="/racial-wealth-gap-ks">&lt;head&gt;
+  &lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;p&gt;The large racial wealth gap traces its roots to slavery, redlining, and other discriminatory policies, and persists largely due to &lt;a href=&quot;https://www.bloomberg.com/news/articles/2019-03-21/how-income-inequality-feeds-the-racial-wealth-gap&quot;&gt;racial income gaps&lt;/a&gt;.
+In honor of Black History month, we explore how closing part of this income gap with a universal basic income would affect the racial wealth gap, using novel measurements that consider how Black and White families differ across the full wealth distribution.&lt;/p&gt;
+
+&lt;p&gt;The two most common measures of the racial wealth gap simply compare mean and median wealth between White and Black families.&lt;sup id=&quot;fnref:head&quot;&gt;&lt;a href=&quot;#fn:head&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Based on the 2019 Survey of Consumer Finances&lt;sup id=&quot;fnref:scf&quot;&gt;&lt;a href=&quot;#fn:scf&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, White families have mean wealth 5.7 times that of Black families, and median wealth 6.4 times that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import warnings
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import plotly.io as pio
+import ubicenter
+from plotly.subplots import make_subplots
+
+cdfs = pd.read_csv(&quot;data/cdfs.csv&quot;)
+ubi_summary = pd.read_csv(&quot;data/ubi_summary.csv&quot;)
+nw_quant = pd.read_csv(&quot;data/deciles.csv&quot;)
+
+
+# Define UBI Center colors
+BLUE = &quot;#1976D2&quot;
+DARK_BLUE = &quot;#1565C0&quot;
+LIGHT_BLUE = &quot;#90CAF9&quot;
+GRAY = &quot;#BDBDBD&quot;
+DARK_GRAY = &quot;#616161&quot;
+BARELY_BLUE = &quot;#E3F2FD&quot;
+
+colors = [BLUE, DARK_BLUE, LIGHT_BLUE, GRAY, BARELY_BLUE]
+
+bl = ubi_summary.iloc[0].round(-2)
+params = pd.DataFrame(
+    {
+        &quot;Mean&quot;: {
+            &quot;White&quot;: bl.white_mean_networth_pa,
+            &quot;Black&quot;: bl.black_mean_networth_pa,
+        },
+        &quot;Median&quot;: {
+            &quot;White&quot;: bl.white_median_networth_pa,
+            &quot;Black&quot;: bl.black_median_networth_pa,
+        },
+    }
+)
+
+fig = go.Figure(
+    data=[
+        go.Bar(name=&quot;White&quot;, x=params.T.index, y=params.T[&quot;White&quot;], marker_color=GRAY),
+        go.Bar(name=&quot;Black&quot;, x=params.T.index, y=params.T[&quot;Black&quot;], marker_color=BLUE),
+    ]
+)
+
+fig.update_layout(
+    title=&quot;Traditional measures of the racial wealth gap&quot;,
+    hovermode=&quot;x&quot;,
+    xaxis_title=&quot;&quot;,
+    yaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    legend=dict(yanchor=&quot;top&quot;, y=0.99, xanchor=&quot;left&quot;, x=0.75),
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;As Matt Bruenig pointed out in his &lt;a href=&quot;https://www.peoplespolicyproject.org/2020/06/29/the-racial-wealth-gap-is-about-the-upper-classes/&quot;&gt;June 2020 piece&lt;/a&gt;, the mean wealth gap is largely shaped by overall wealth inequality, with over 70 percent of both Black and White families’ wealth held by the top decile.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+hovertemplate = &quot;%{x:.1f}%&quot;
+
+fig = px.bar(
+    nw_quant[nw_quant.variable.isin([&quot;White&quot;, &quot;Black&quot;])],
+    y=&quot;percentile&quot;,
+    x=&quot;value&quot;,
+    color=&quot;variable&quot;,
+    labels={
+        &quot;percentile&quot;: &quot;Percent receiving benefit&quot;,
+        &quot;value&quot;: &quot;Share of within-group wealth&quot;,
+    },
+    orientation=&quot;h&quot;,
+    barmode=&quot;group&quot;,
+    color_discrete_map={&quot;White&quot;: GRAY, &quot;Black&quot;: BLUE},
+)
+
+fig.update_traces(hovertemplate=&quot;Share of Wealth: &quot; + hovertemplate)
+
+# apply formatting
+fig.update_layout(
+    title=&quot;Within-race wealth inequality&quot;,
+    hovermode=&quot;y&quot;,
+    xaxis_title=&quot;Share of total within-group wealth held by decile&quot;,
+    yaxis_title=&quot;Decile of wealth per adult (2019)&quot;,
+    xaxis_ticksuffix=&quot;%&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_dtick=1,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While the median tells us where the middle of the distributions lay, it can obscure what is going on throughout the rest of the distribution.
+To visualize a variable’s distribution in full, we can turn to the cumulative distribution function (CDF), which shows the population share with less than a specified value.&lt;/p&gt;
+
+&lt;p&gt;The following graph shows how to interpret a CDF graph of of wealth per adult for all families in the U.S. (Note that while we have logarithmically transformed the x-axis, the y-axis remains linear.)&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+all_hh = cdfs.loc[cdfs.ubi_mo == 0].copy(deep=True)
+
+# select 5000k
+med = all_hh.loc[all_hh[&quot;networth_pa_new&quot;] == 50000, :].copy(deep=True)
+med[&quot;x&quot;] = np.log10(med.networth_pa_new)
+med[&quot;y&quot;] = med.loc[:, &quot;total_share&quot;]
+
+# plot curve
+fig = px.line(x=all_hh.networth_pa_new, y=all_hh.total_share.round(3))
+# change line coloar
+fig[&quot;data&quot;][0][&quot;line&quot;][&quot;color&quot;] = BLUE
+
+# add explanation for arrow pointing to y-axis
+fig.add_annotation(
+    x=2,
+    y=med.y.values[0],
+    text=&quot;Look at y-axis to see share of families &lt;br /&gt; whose wealth is below the x-value&quot;,
+    showarrow=True,
+    arrowhead=0,
+    ay=-50,
+    ax=150,
+    font=dict(size=16),
+)
+
+# add dotted line pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],
+    y=0,
+    text=&quot;For a given wealth on the x-axis&quot;,
+    showarrow=True,
+    arrowhead=0,
+    # yshift=-60,
+    # xshift=-130,
+    ax=160,
+    ay=-50,
+    font=dict(size=16),
+)
+
+# add red arrow pointing from x-axis to point
+fig.add_annotation(
+    x=med.x.values[0],  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=0,  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+# add arrow pointing from point to y-axis
+fig.add_annotation(
+    x=2,  # arrows' head
+    y=med.y.values[0],  # arrows' head
+    ax=med.x.values[0],  # arrows' tail
+    ay=med.y.values[0],  # arrows' tail
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+    axref=&quot;x&quot;,
+    ayref=&quot;y&quot;,
+    text=&quot;&quot;,  # if you want only the arrow
+    showarrow=True,
+    arrowhead=2,
+    arrowsize=2,
+    arrowwidth=1,
+    arrowcolor=GRAY,
+)
+
+fig.update_layout(
+    showlegend=False,
+    title=&quot;Cumulative wealth distribution&quot;,
+    xaxis_title=&quot;Wealth per adult (2019)&quot;,
+    yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    hovermode=&quot;x&quot;,
+)
+
+fig.update_xaxes(
+    dict(
+        range=[2, 9],
+        autorange=False,
+        showspikes=False,  # Show spike line for x-axis
+        # Format spike
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    ),
+    type=&quot;log&quot;,
+)
+fig.update_yaxes(
+    dict(
+        range=[0, 1.01],
+        showspikes=True,
+        spikethickness=1,
+        spikedash=&quot;dot&quot;,
+        spikecolor=&quot;grey&quot;,
+        spikemode=&quot;toaxis&quot;,
+    )
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, how can we compare the distributions of wealth between Black and White families?
+The two-sample Kolmogorov-Smirnov (KS) statistical test offers a way to test the difference between two distributions.
+The KS statistic, or D-statistic (for “distance”), is the maximum absolute vertical distance between two CDFs.&lt;/p&gt;
+
+&lt;p&gt;One advantage to this statistical method is that it is quite simple to explain visually.
+The below chart plots the CDF for White and Black families.
+The dotted line drawn between the two curves shows where the vertical distance between them is at its greatest.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+
+    # Create traces
+    fig = go.Figure()
+
+    # create df for baseline
+    cdfs_bl = cdfs[cdfs.ubi_mo == 0]
+    # plot ECDFs
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.white_share.round(3),
+            name=&quot;White&quot;,
+            marker_color=GRAY,
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=cdfs_bl.networth_pa_new,
+            y=cdfs_bl.black_share.round(3),
+            name=&quot;Black&quot;,
+            marker_color=BLUE,
+        )
+    )
+
+    # define ks_stat
+    ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;d_stat_cand&quot;].max()
+
+    # find networth where the d-statistic is found
+    max_x = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;networth_pa_new&quot;].max()
+
+    # find networth where abs distance between ecdfs is is @  max
+    y1 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;white_share&quot;].max()
+    y0 = ubi_summary.loc[ubi_summary.ubi_mo == 0, &quot;black_share&quot;].max()
+
+    # # add a dashed line showing where max abs distance between ECDFs is
+
+    dash_names = &quot;Max abs. distance between CDFs&quot;
+    dash_color = &quot;black&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=[max_x, max_x],
+            y=[y0, y1],
+            mode=&quot;lines+text&quot;,
+            line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+            visible=True,
+            name=dash_names,
+            text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;        &quot;, None],
+            textfont=dict(size=16),
+            textposition=&quot;top left&quot;,
+            showlegend=False,
+        )
+    )
+
+    fig.add_annotation(
+        x=np.log10(max_x),
+        y=(y1 + y0) / 2,
+        text=&quot;The Kolmogorov-Smirnov D-statistic &lt;br /&gt;&quot;
+        + &quot;is the maximum absolute vertical &lt;br /&gt;&quot;
+        + &quot;distance between the two curves&quot;,
+        showarrow=True,
+        arrowhead=3,
+        yshift=1,
+        ax=200,
+        bordercolor=&quot;#c7c7c7&quot;,
+        borderwidth=2,
+        borderpad=4,
+        bgcolor=&quot;dark blue&quot;,
+        opacity=1,
+        font=dict(size=16),
+    )
+
+    fig.update_layout(
+        title=&quot;Cumulative distribution function (CDF) of wealth by race&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        yaxis_title=&quot;Share of families with less than value in wealth&quot;,
+        yaxis_ticksuffix=&quot;&quot;,
+        yaxis_tickprefix=&quot;&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+        legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+    )
+
+    fig.update_xaxes(type=&quot;log&quot;)
+    fig = ubicenter.format_fig(fig, show = False)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This shows us that approximately 65.9% of Black families have a wealth of less than $50,000 per adult, whereas only 33.3% of White families fall below that line.
+As we will see, the threshold can be at any point along these curves; the KS statistic is the value measuring the size of the gap where the gap is the largest, at 0.326 (the actual wealth value corresponding to the D-statistic was $50,888).&lt;/p&gt;
+
+&lt;p&gt;In the following model, we simulate how saving a total of one year’s UBI payments could change the racial wealth gap. We apply a flat tax on all income to fund the UBI program, and subtract each family’s new tax payment from their wealth.&lt;/p&gt;
+
+&lt;p&gt;In the bottom graph, you can see the vertical distance between the two curves at each point along the x-axis from $0 to $2,000 per month.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button5&quot; onclick=&quot;f5()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_5&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def ecdf_slider(data):
+    # Create traces
+    fig = go.Figure()
+
+    # create empty list for payment size for sliders
+    payments = []
+    ks_stats = []
+    max_xs = []
+
+    # create 2 subplots
+    fig = make_subplots(
+        rows=2,
+        cols=1,
+        shared_xaxes=False,
+        # Apply x axis title elsewhere so it doesn't interfere with slider.
+        y_title=&quot;Share of families with less than value in wealth&quot;,
+    )
+
+    for i, step in enumerate(data.ubi_mo.unique()):
+        # append payment to list
+        payments.append(step)
+        step_data = data[data.ubi_mo == step]
+        # add trace 0
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.white_share.round(3),
+                name=&quot;White&quot;,
+                visible=False,
+                marker_color=GRAY,
+            ),
+            row=1,
+            col=1,
+        )
+        # add trace 1
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.black_share.round(3),
+                name=&quot;Black&quot;,
+                visible=False,
+                marker_color=BLUE,
+            ),
+            row=1,
+            col=1,
+        )
+        # append ks-statistics to list
+        ks_stat = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;d_stat_cand&quot;].values[0]
+        ks_stats.append(ks_stat)
+
+        # add plot to candidate
+        # add trace 2, the d-statistic candidates
+        fig.add_trace(
+            go.Scatter(
+                x=step_data.networth_pa_new,
+                y=step_data.d_stat_cand.round(3),
+                mode=&quot;lines&quot;,
+                visible=False,
+                name=&quot;Absolute distance between CDFs&quot;,
+                marker_color=LIGHT_BLUE,
+            ),
+            row=2,
+            col=1,
+        )
+
+        # find networth where the d-statistic
+        max_x = (
+            ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;networth_pa_new&quot;]
+            .iloc[0]
+            .round(3)
+        )
+        max_xs.append(max_x)
+
+        # find networth where abs distance between ecdfs is is @  max
+        y1 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;white_share&quot;].iloc[0].round(3)
+        y0 = ubi_summary.loc[ubi_summary.ubi_mo == step, &quot;black_share&quot;].iloc[0].round(3)
+
+        dash_names = &quot;Max abs. distance between CDFs&quot;
+        dash_color = &quot;black&quot;
+        # dotted line between two curves
+        fig.add_trace(
+            go.Scatter(
+                x=[max_x, max_x],
+                y=[y0, y1],
+                mode=&quot;lines+text&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                text=[&quot;D-statistic: &quot; + str(round(ks_stat, 3)) + &quot;     &quot;, None],
+                textfont=dict(size=16),
+                textposition=&quot;top left&quot;,
+                showlegend=False,
+            ),
+            row=1,
+            col=1,
+        )
+        # dotted line to peak on bottom chart
+        fig.add_trace(
+            go.Scatter(
+                x=[round(max_x, 3), round(max_x, 3)],
+                y=[0, round(y0 - y1, 3)],
+                mode=&quot;lines&quot;,
+                line={&quot;dash&quot;: &quot;dot&quot;, &quot;color&quot;: dash_color, &quot;width&quot;: 2},
+                visible=False,
+                name=dash_names,
+                showlegend=False,
+            ),
+            row=2,
+            col=1,
+        )
+
+    # define number of plots in each step
+    n = 5
+    # Make first n traces visible
+    for i in range(0, n):
+        fig.data[i].visible = True
+
+    # Create and add slider
+    steps = []
+    for i in range(0, len(fig.data), n):
+        step = dict(
+            method=&quot;update&quot;,
+            args=[{&quot;visible&quot;: [False] * len(fig.data)},],  # layout attribute
+            label=(&quot;$&quot; + str(payments[i // n])),
+        )
+        for j in range(0, n):
+            step[&quot;args&quot;][0][&quot;visible&quot;][i + j] = True  # Toggle i'th trace to &quot;visible&quot;
+        steps.append(step)
+    sliders = [
+        dict(
+            active=0,
+            currentvalue={&quot;prefix&quot;: &quot;Monthly universal basic income payment: &quot;},
+            pad={&quot;t&quot;: 50},
+            steps=steps,
+        )
+    ]
+
+    fig.update_traces(xaxis=&quot;x1&quot;)
+
+    # update shapes
+    fig.update_shapes(dict(xref=&quot;x&quot;, yref=&quot;y&quot;))
+
+    # fig.update_yaxes(showspikes=True)
+    fig.update_layout(
+        sliders=sliders,
+        xaxis=dict(
+            visible=True,
+            type=&quot;log&quot;,
+            range=[2, 9],
+            autorange=False,
+            showspikes=True,  # Show spike line for X-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;across&quot;,
+        ),
+        title=&quot;The Kolmogorov-Smirnov measure of the racial wealth gap&quot;,
+        xaxis_title=&quot;Wealth per adult (2019)&quot;,
+        hovermode=&quot;x&quot;,
+        xaxis_tickprefix=&quot;$&quot;,
+    )
+
+    fig.update_xaxes(
+        visible=True,
+        type=&quot;log&quot;,
+        row=2,
+        col=1,
+    )
+    fig.update_yaxes(
+        dict(
+            range=[0, 1],
+            autorange=False,
+            showspikes=False,  # Show spike line for y-axis
+            # Format spike
+            spikethickness=2,
+            spikedash=&quot;dot&quot;,
+            spikecolor=&quot;#999999&quot;,
+            spikemode=&quot;toaxis&quot;,
+        ),
+        row=2,
+        col=1,
+    )
+
+    return ubicenter.format_fig(fig, show = False)
+
+
+with warnings.catch_warnings():  # ignore &quot;FutureWarning&quot;
+    &quot;&quot;&quot;
+    Ignore numpy 'FutureWarning' :
+    &quot;Using a non-tuple sequence for multidimensional indexing is deprecated;
+    use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be
+    interpreted as an array index, `arr[np.array(seq)]`, which will result
+    either in an error or a different result.&quot;
+    &quot;&quot;&quot;
+    warnings.filterwarnings(&quot;ignore&quot;, category=FutureWarning)
+    fig = ecdf_slider(cdfs)
+    fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f5() {
+  var x = document.getElementById(&quot;asset_code_5&quot;);
+  var b = document.getElementById(&quot;button5&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset5&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-5.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset5&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;It is notable that while the KS D-statistics declines overall, it fluctuates until we get to $500 payments, at which point the D-statistic begins a steady decline to minimum of 0.300 under the $2,000 monthly benefit scenario.
+This is because the distances between the two curves are much larger around the center of the distributions than around the tails, thus the changes in the KS test are not picking up changes at lower incomes, where the curves were much closer together to begin with.&lt;/p&gt;
+
+&lt;p&gt;In our simulations, the wealth point at which the curves are furthest apart increases with the UBI amount.
+The wealth at which the gap is the biggest rises to just above $121,000, from $50,000 at baseline.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button6&quot; onclick=&quot;f6()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_6&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = make_subplots(
+    rows=2,
+    cols=1,
+    shared_xaxes=True,
+    x_title=&quot;Monthly universal basic income payment&quot;,
+    subplot_titles=[
+        &quot;Black vs White wealth KS statistic&quot;,
+        &quot;Wealth where Black and White cumulative distributions differ most&quot;,
+    ],
+)
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.d_stat_cand.round(3),
+        mode=&quot;lines+markers&quot;,
+        name=&quot;KS statistic&quot;,
+        marker_color=BLUE,
+    ),
+    row=1,
+    col=1,
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.networth_pa_new,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Wealth at KS D-stat&quot;,
+        marker_color=LIGHT_BLUE,
+    ),
+    row=2,
+    col=1,
+)
+
+fig.update_layout(showlegend=False, hovermode=&quot;x&quot;, xaxis_tickprefix=&quot;$&quot;)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f6() {
+  var x = document.getElementById(&quot;asset_code_6&quot;);
+  var b = document.getElementById(&quot;button6&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset6&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-6.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset6&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Further, without UBI the median White family has $6.45 for every $1 held by the median Black family. Under a $1,000 monthly payment, this falls to $3.49 for every $1, and further down to $2.64 with a $2,000 monthly payment.&lt;/p&gt;
+
+&lt;p&gt;The median wealth for White families rises from $115,103 without a UBI to $119,425 under a $1,000 monthly payment, and rises to $127,505 with a $2,000 monthly payment.
+For Black families, a $1,000 UBI nearly doubles the median wealth, from $17,853 to $34,183, and a $2,000 monthly benefit grows it further to $48,310.&lt;/p&gt;
+
+&lt;p&gt;It should be noted that the median wealth per adult&lt;sup id=&quot;fnref:peradult&quot;&gt;&lt;a href=&quot;#fn:peradult&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; rises among White families, it merely rises by less than that of Black families.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button7&quot; onclick=&quot;f7()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_7&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_median_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = ubi_summary[[&quot;black_median_networth_pa&quot;, &quot;white_median_networth_pa&quot;]].max().max() * 1.1
+
+fig.update_layout(
+    title=&quot;How UBI affects median wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Median wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f7() {
+  var x = document.getElementById(&quot;asset_code_7&quot;);
+  var b = document.getElementById(&quot;button7&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset7&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-7.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset7&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Unlike the rising median wealth for White families under the same UBI, mean wealth for White families declines from $557,216 without any UBI to 555,135 under a $1,000 monthly payment, and falls further to $553,054 with a $2,000 monthly payment.
+For Black families, the mean wealth rises from $97,167 to $104,768 with a $1,000 benefit, and further to $112,369 with a $2,000 benefit.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button8&quot; onclick=&quot;f8()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_8&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+hovertemplate = &quot;$%{y:.0f}&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.black_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary.ubi_mo,
+        y=ubi_summary.white_mean_networth_pa,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;black_mean_networth_pa&quot;, &quot;white_mean_networth_pa&quot;]].max().max() * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects mean wealth by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Mean wealth per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;&quot;,
+    yaxis_tickprefix=&quot;$&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f8() {
+  var x = document.getElementById(&quot;asset_code_8&quot;);
+  var b = document.getElementById(&quot;button8&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset8&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-8.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset8&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Finally, we look at the share of families that fall below $50,000 per adult, the point at which those two curves were further apart in our baseline scenario.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button9&quot; onclick=&quot;f9()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_9&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+hovertemplate = &quot;%{y:.0f}%&quot;
+
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;black_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;Black&quot;,
+        marker_color=BLUE,
+        hovertemplate=hovertemplate,
+    )
+)
+fig.add_trace(
+    go.Scatter(
+        x=ubi_summary[&quot;ubi_mo&quot;],
+        y=ubi_summary[&quot;white_share_above_50k&quot;] * 100,
+        mode=&quot;lines+markers&quot;,
+        name=&quot;White&quot;,
+        marker_color=GRAY,
+        hovertemplate=hovertemplate,
+    )
+)
+
+ymax = (
+    ubi_summary[[&quot;white_share_above_50k&quot;, &quot;black_share_above_50k&quot;]].max().max()
+    * 100
+    * 1.1
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects the share of families with wealth above $50,000 by race&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Share of families with wealth above $50,000 per adult (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_range=[0, ymax],
+    legend={&quot;traceorder&quot;: &quot;reversed&quot;},
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f9() {
+  var x = document.getElementById(&quot;asset_code_9&quot;);
+  var b = document.getElementById(&quot;button9&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset9&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-9.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset9&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The share of Black families with a per adult networth of over $50,000 rises from 65.9 percent to 61.2 percent when we raise the monthly UBI to $1,000 monthly, and falls further to 51.7 percent when we raise the benefit to $2,000 monthly.&lt;/p&gt;
+
+&lt;p&gt;In the scenarios we explore, the outcomes for Black families improve in the share of families with wealth per adult below $50,000 declines, median family wealth increases.
+In the final plot below, you can explore the relative changes in all of the metrics we’ve chosen.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button10&quot; onclick=&quot;f10()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_10&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+fig = go.Figure()
+
+
+def trace(col, chg_col, name, string, color):
+    &quot;&quot;&quot;
+    Args:
+        col: Column name.
+        chg_col: Column name of change.
+        name: Name of column for printing.
+        string: Formatting of customdata[1].
+        color: Line color.
+    &quot;&quot;&quot;
+    fig.add_trace(
+        go.Scatter(
+            x=ubi_summary[&quot;ubi_mo&quot;],
+            y=ubi_summary[chg_col] * 100,
+            mode=&quot;lines+markers&quot;,
+            name=name,
+            marker_color=color,
+            marker=dict(size=5),
+            customdata=np.stack((ubi_summary.ubi_mo, ubi_summary[col]), axis=-1),
+            hovertemplate=name
+            + &quot;: &quot;
+            + string
+            + &quot;&lt;br /&gt;&quot;
+            + &quot;Percent change: %{y:.0f}%&lt;br /&gt;&quot;,
+        )
+    )
+
+
+trace(
+    &quot;white_mean_nw_as_pct_of_mean_black&quot;,
+    &quot;white_mean_nw_as_pct_of_mean_black_pc&quot;,
+    &quot;White/Black mean wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    DARK_GRAY,
+)
+# median wealth
+trace(
+    &quot;white_median_nw_as_pct_of_median_black&quot;,
+    &quot;white_median_nw_as_pct_of_median_black_pc&quot;,
+    &quot;White/Black median wealth&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    GRAY,
+)
+trace(
+    &quot;d_stat_cand&quot;, &quot;d_stat_cand_pc&quot;, &quot;KS statistic&quot;, &quot;%{customdata[1]: .3f}&quot;, DARK_BLUE
+)
+trace(
+    &quot;white_share_above_50k_pct_of_black&quot;,
+    &quot;white_share_above_50k_pct_of_black_pc&quot;,
+    &quot;White/Black share of families over $50k&quot;,
+    &quot;%{customdata[1]: .1f}&quot;,
+    LIGHT_BLUE,
+)
+
+fig.update_layout(
+    title=&quot;How UBI affects different measures of the racial wealth gap&quot;,
+    xaxis_title=&quot;Monthly universal basic income payment&quot;,
+    yaxis_title=&quot;Percent change in measure over baseline (2019)&quot;,
+    yaxis_ticksuffix=&quot;%&quot;,
+    yaxis_tickprefix=&quot;&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f10() {
+  var x = document.getElementById(&quot;asset_code_10&quot;);
+  var b = document.getElementById(&quot;button10&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset10&quot;).load(&quot;/assets/markdown_assets/racial-wealth-gap-ks/2021-02-28-racial-wealth-gap-ks-asset-10.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset10&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;While these metrics aren’t truly comparable, we can see that the KS statistic is more stubborn than other measures, especially the gap in median wealth.
+Median Black wealth is so low that even modest redistribution can close that gap quickly, but larger gaps in the middle of the distribution will persist.&lt;/p&gt;
+
+&lt;p&gt;We will continue this line of research, especially longer-term dynamic analysis to reflect the accumulative nature of wealth.
+Our simplifying assumption that the entire tax and transfer system flows straight to wealth, rather than consumption, may exaggerate these trends given propensities to consume decrease with wealth. But recurring redistribution would likely have a significantly larger effect in closing the gap, even accounting for consumption.
+UBI isn’t the only policy that can reduce racial wealth disparities, but it certainly helps.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:head&quot;&gt;
+      &lt;p&gt;White and Black families are families headed by a White and Black person, respectively. &lt;a href=&quot;#fnref:head&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:scf&quot;&gt;
+      &lt;p&gt;We used the &lt;a href=&quot;http://pslmodels.org&quot;&gt;Policy Simulation Library&lt;/a&gt;’s &lt;a href=&quot;https://github.com/PSLmodels/scf&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scf&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;https://github.com/PSLmodels/microdf&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;microdf&lt;/code&gt;&lt;/a&gt; Python packages for extracting and processing this data in &lt;a href=&quot;https://github.com/UBICenter/blog/blob/master/jb/20210228/data/gen_data.py&quot;&gt;this script&lt;/a&gt;. &lt;a href=&quot;#fnref:scf&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:peradult&quot;&gt;
+      &lt;p&gt;Family wealth conventionally adjusts for number of adults to avoid distorting statistics due to marriage patterns; for example, see &lt;a href=&quot;https://www.credit-suisse.com/about-us/en/reports-research/global-wealth-report.html&quot;&gt;Credit Suisse’s Global Net Worth Report&lt;/a&gt;. &lt;a href=&quot;#fnref:peradult&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;will&quot;, &quot;max&quot;]</name></author><category term="us" /><category term="race" /><category term="wealth" /><summary type="html">Going beyond mean and median.</summary></entry></feed>
